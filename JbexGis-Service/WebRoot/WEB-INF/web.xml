@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlet.action.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.servlet.action.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JsonUserServlet</servlet-name>
+    <servlet-class>com.servlet.action.JsonUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.UserInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindUserServlet</servlet-name>
+    <servlet-class>com.servlet.action.FindUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IsFriendServlet</servlet-name>
+    <servlet-class>com.servlet.action.IsFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JsonAttentionServlet</servlet-name>
+    <servlet-class>com.servlet.action.JsonAttentionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetFriendGroupServlet</servlet-name>
+    <servlet-class>com.servlet.action.SetFriendGroupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendsGroupServlet</servlet-name>
+    <servlet-class>com.servlet.action.FriendsGroupServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AttetnionServlet</servlet-name>
+    <servlet-class>com.servlet.action.AttetnionServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddFriendRequestServlet</servlet-name>
+    <servlet-class>com.servlet.action.AddFriendRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JsonFriendRequestServlet</servlet-name>
+    <servlet-class>com.servlet.action.JsonFriendRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteFriendRequestServlet</servlet-name>
+    <servlet-class>com.servlet.action.deleteFriendRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <servlet-class>com.servlet.action.UpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddPublicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.AddPublicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPublicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetPublicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>publicinfoUpLoadServlet</servlet-name>
+    <servlet-class>com.servlet.action.publicinfoUpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetPublicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.SetPublicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddJbexinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.AddJbexinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetJbexinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.SetJbexinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetJbexinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetJbexinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>jbexinfoUpLoadServlet</servlet-name>
+    <servlet-class>com.servlet.action.jbexinfoUpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JBexFriendServlet</servlet-name>
+    <servlet-class>com.servlet.action.JBexFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetJbexRequestServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetJbexRequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteJbexinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.DeleteJbexinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddynamicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.AddynamicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetdynamicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetdynamicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetdynamicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.SetdynamicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletedynamicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.DeletedynamicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>dynamicinfoUpLoadServlet</servlet-name>
+    <servlet-class>com.servlet.action.dynamicinfoUpLoadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetdynamicinfoByUseridServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetdynamicinfoByUseridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetpublicinfoByUseridServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetpublicinfoByUseridServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeletepublicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.DeletepublicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetFriendynamicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetFriendynamicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAttentiondynamicinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetAttentiondynamicinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetFriendjbexinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetFriendjbexinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetAttentionjbexinfoServlet</servlet-name>
+    <servlet-class>com.servlet.action.GetAttentionjbexinfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCollections</servlet-name>
+    <servlet-class>com.servlet.action.AddCollections</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JsonCollectionsServlet</servlet-name>
+    <servlet-class>com.servlet.action.JsonCollectionsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebGetUserInfo</servlet-name>
+    <servlet-class>com.servlet.action.WebGetUserInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebGetJbexInfo</servlet-name>
+    <servlet-class>com.servlet.action.WebGetJbexInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebGetPublicInfo</servlet-name>
+    <servlet-class>com.servlet.action.WebGetPublicInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WebGetDynamicInfo</servlet-name>
+    <servlet-class>com.servlet.action.WebGetDynamicInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteFriendServlet</servlet-name>
+    <servlet-class>com.servlet.action.deleteFriendServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SetUserSecurityControl</servlet-name>
+    <servlet-class>com.servlet.action.SetUserSecurityControl</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/servlet/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/servlet/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonUserServlet</servlet-name>
+    <url-pattern>/servlet/JsonUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserInfoServlet</servlet-name>
+    <url-pattern>/servlet/UserInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindUserServlet</servlet-name>
+    <url-pattern>/servlet/FindUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IsFriendServlet</servlet-name>
+    <url-pattern>/servlet/IsFriendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonAttentionServlet</servlet-name>
+    <url-pattern>/servlet/JsonAttentionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetFriendGroupServlet</servlet-name>
+    <url-pattern>/servlet/SetFriendGroupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendsGroupServlet</servlet-name>
+    <url-pattern>/servlet/FriendsGroupServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AttetnionServlet</servlet-name>
+    <url-pattern>/servlet/AttetnionServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddFriendRequestServlet</servlet-name>
+    <url-pattern>/servlet/AddFriendRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonFriendRequestServlet</servlet-name>
+    <url-pattern>/servlet/JsonFriendRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFriendRequestServlet</servlet-name>
+    <url-pattern>/servlet/deleteFriendRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpLoadServlet</servlet-name>
+    <url-pattern>/servlet/UpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPublicinfoServlet</servlet-name>
+    <url-pattern>/servlet/AddPublicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPublicinfoServlet</servlet-name>
+    <url-pattern>/servlet/GetPublicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>publicinfoUpLoadServlet</servlet-name>
+    <url-pattern>/servlet/publicinfoUpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetPublicinfoServlet</servlet-name>
+    <url-pattern>/servlet/SetPublicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddJbexinfoServlet</servlet-name>
+    <url-pattern>/servlet/AddJbexinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetJbexinfoServlet</servlet-name>
+    <url-pattern>/servlet/SetJbexinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJbexinfoServlet</servlet-name>
+    <url-pattern>/servlet/GetJbexinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jbexinfoUpLoadServlet</servlet-name>
+    <url-pattern>/servlet/jbexinfoUpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JBexFriendServlet</servlet-name>
+    <url-pattern>/servlet/JBexFriendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetJbexRequestServlet</servlet-name>
+    <url-pattern>/servlet/GetJbexRequestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteJbexinfoServlet</servlet-name>
+    <url-pattern>/servlet/DeleteJbexinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddynamicinfoServlet</servlet-name>
+    <url-pattern>/servlet/AddynamicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetdynamicinfoServlet</servlet-name>
+    <url-pattern>/servlet/GetdynamicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetdynamicinfoServlet</servlet-name>
+    <url-pattern>/servlet/SetdynamicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletedynamicinfoServlet</servlet-name>
+    <url-pattern>/servlet/DeletedynamicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>dynamicinfoUpLoadServlet</servlet-name>
+    <url-pattern>/servlet/dynamicinfoUpLoadServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetdynamicinfoByUseridServlet</servlet-name>
+    <url-pattern>/servlet/GetdynamicinfoByUseridServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetpublicinfoByUseridServlet</servlet-name>
+    <url-pattern>/servlet/GetpublicinfoByUseridServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletepublicinfoServlet</servlet-name>
+    <url-pattern>/servlet/DeletepublicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetFriendynamicinfoServlet</servlet-name>
+    <url-pattern>/servlet/GetFriendynamicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAttentiondynamicinfoServlet</servlet-name>
+    <url-pattern>/servlet/GetAttentiondynamicinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetFriendjbexinfoServlet</servlet-name>
+    <url-pattern>/servlet/GetFriendjbexinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAttentionjbexinfoServlet</servlet-name>
+    <url-pattern>/servlet/GetAttentionjbexinfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCollections</servlet-name>
+    <url-pattern>/servlet/AddCollections</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonCollectionsServlet</servlet-name>
+    <url-pattern>/servlet/JsonCollectionsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebGetUserInfo</servlet-name>
+    <url-pattern>/servlet/WebGetUserInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebGetJbexInfo</servlet-name>
+    <url-pattern>/servlet/WebGetJbexInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebGetPublicInfo</servlet-name>
+    <url-pattern>/servlet/WebGetPublicInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WebGetDynamicInfo</servlet-name>
+    <url-pattern>/servlet/WebGetDynamicInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteFriendServlet</servlet-name>
+    <url-pattern>/servlet/deleteFriendServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SetUserSecurityControl</servlet-name>
+    <url-pattern>/servlet/SetUserSecurityControl</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

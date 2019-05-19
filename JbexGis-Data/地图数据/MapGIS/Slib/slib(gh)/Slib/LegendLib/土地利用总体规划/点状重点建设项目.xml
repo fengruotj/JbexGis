@@ -1,0 +1,28 @@
+<rootName>
+  <subnode name="ZDJSXMD(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="1">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <pntInfo lib="0" id="6" height="8" width="8" angle="0" outpenw="0;0;0" outclr="51;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+        </pntInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="223" isVisible="1" minScale="0." maxScale="0." value="223">
+        <geoInfo>
+          <pntInfo lib="0" id="316" height="5" width="5" angle="0" outpenw="0;0;0" outclr="6;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="224" isVisible="1" minScale="0." maxScale="0." value="224">
+        <geoInfo>
+          <pntInfo lib="0" id="40" height="5" width="5" angle="0" outpenw="0;0;0" outclr="6;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</rootName>

@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/new_lay"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"    
+            android:background="@drawable/tm_button_white_bg" 
+            android:onClick="friendrequest"
+            android:clickable="true"          
+             >
+            
+            <ImageView
+                android:id="@+id/newf"
+                android:layout_width="55dp"
+		        android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/s_chat_friend1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/newf"
+                android:layout_marginLeft="2dip"
+                android:padding="7dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="新的好友"
+                android:textColor="#000" />
+            
+               <ImageView
+                   android:id="@+id/img_araow"
+                android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        	     	
+        		android:scaleType="matrix"
+        		android:layout_marginRight="20dip"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />  
+        		
+               
+                 <TextView
+                       android:id="@+id/new_num_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" 
+                        android:layout_toLeftOf="@id/img_araow"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:gravity="center"             
+                        android:textSize="12sp"
+                        android:textColor="#fff" 
+                        android:background="@drawable/wode_icon_01"
+                        android:visibility="gone"
+                        />     
+           
+                  </RelativeLayout>
+    
+    
+    <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/new_Jbex_Request"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"    
+            android:background="@drawable/tm_button_white_bg" 
+            android:clickable="true"          
+             >
+            
+            <ImageView
+                android:id="@+id/newf_Jbex_Request"
+                android:layout_width="55dp"
+		        android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/s_chat_friend2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/newf_Jbex_Request"
+                android:layout_marginLeft="2dip"
+                android:padding="7dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="新的结伴好友"
+                android:textColor="#000" />
+            
+               <ImageView
+                   android:id="@+id/img_araow_Jbex_Request"
+                android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        	     	
+        		android:scaleType="matrix"
+        		android:layout_marginRight="20dip"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />  
+        		
+               
+                 <TextView
+                       android:id="@+id/new_num_tv_Jbex_Request"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" 
+                        android:layout_toLeftOf="@id/img_araow_Jbex_Request"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:gravity="center"             
+                        android:textSize="12sp"
+                        android:textColor="#fff" 
+                        android:background="@drawable/wode_icon_01"
+                        android:visibility="gone"
+                        />     
+           
+                  </RelativeLayout>
+                  
+    <com.basic.ui.CustomExpandableListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/exlistView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    > 
+    </com.basic.ui.CustomExpandableListView>
+    
+</LinearLayout>

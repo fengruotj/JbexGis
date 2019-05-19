@@ -1,0 +1,52 @@
+<themes>
+  <subnode name="线状重点建设项目(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="2">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <linInfo lib="0" id="1" ovprnt="1" outpenw="0.05;0;0" outclr="51;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+        </linInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="221" isVisible="1" minScale="0." maxScale="0." value="221">
+        <geoInfo>
+          <linInfo lib="0" id="88" ovprnt="0" outpenw="0.2;0;0" outclr="6;9;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="12" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="22201" isVisible="1" minScale="0." maxScale="0." value="22201">
+        <geoInfo>
+          <linInfo lib="0" id="95" ovprnt="0" outpenw="0.2;0;0" outclr="6;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="22202" isVisible="1" minScale="0." maxScale="0." value="22202">
+        <geoInfo>
+          <linInfo lib="0" id="96" ovprnt="0" outpenw="0.2;0;0" outclr="6;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="22203" isVisible="1" minScale="0." maxScale="0." value="22203">
+        <geoInfo>
+          <linInfo lib="0" id="96" ovprnt="0" outpenw="0.2;0;0" outclr="6;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="223" isVisible="1" minScale="0." maxScale="0." value="223">
+        <geoInfo>
+          <linInfo lib="0" id="74" ovprnt="0" outpenw="1;0;0" outclr="158;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="227" isVisible="1" minScale="0." maxScale="0." value="227">
+        <geoInfo>
+          <linInfo lib="0" id="110" ovprnt="0" outpenw="1;0;0" outclr="102;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</themes>

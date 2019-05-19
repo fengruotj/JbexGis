@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+         android:layout_width="200dp"
+            android:layout_height="50dp"
+            >
+
+        <RelativeLayout
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp" 
+            android:id="@+id/dt_fir">
+
+            <ImageView
+                android:id="@+id/dt_userimage"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/ic_launcher" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="30dp"
+           android:layout_width="wrap_content" 
+           android:id="@+id/dt_midd"
+           android:layout_toRightOf="@id/dt_fir"
+            >
+            <RelativeLayout
+                
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+                <TextView
+                    android:layout_width="wrap_content" 
+                	android:layout_height="wrap_content"
+                	android:text="username"
+                	android:id="@+id/dt_ann_username"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content" 
+                	android:layout_height="wrap_content"
+                	android:layout_toRightOf="@id/dt_ann_username"/>
+                
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+               >
+                
+                <TextView
+                    android:id="@+id/dt_time1"
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:text="123456798"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+           android:layout_height="50dp"
+           android:layout_width="wrap_content" 
+           android:layout_toRightOf="@id/dt_midd">
+
+            <Button
+                android:id="@+id/btn_dt_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/shape"
+                android:text="详情 >"
+                android:textColor="@color/mainTheme_btn"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    
+    <RelativeLayout
+        android:layout_height="20dp"
+        android:layout_width="200dp">
+        
+        <TextView 
+            android:id="@+id/dt_details"
+            android:layout_height="match_parent"
+           android:layout_width="wrap_content" 
+           android:text="lalalalalalalalalalalalalalalalal"/>
+        </RelativeLayout>
+</LinearLayout>

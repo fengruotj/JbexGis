@@ -1,0 +1,160 @@
+<themes>
+  <subnode name="基期零星地物BM(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="1">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <pntInfo lib="0" id="6" height="8" width="8" angle="0" outpenw="0;0;0" outclr="51;0;0" ovprnt="1" fillflg="0" backexp="0" backclr="0">
+        </pntInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="11" isVisible="1" minScale="0." maxScale="0." value="11">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="111" isVisible="1" minScale="0." maxScale="0." value="111">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="112" isVisible="1" minScale="0." maxScale="0." value="112">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="113" isVisible="1" minScale="0." maxScale="0." value="113">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="34;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="12" isVisible="1" minScale="0." maxScale="0." value="12">
+        <geoInfo>
+          <pntInfo lib="0" id="4" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="13" isVisible="1" minScale="0." maxScale="0." value="13">
+        <geoInfo>
+          <pntInfo lib="0" id="407" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="14" isVisible="1" minScale="0." maxScale="0." value="14">
+        <geoInfo>
+          <pntInfo lib="0" id="410" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="151" isVisible="1" minScale="0." maxScale="0." value="151">
+        <geoInfo>
+          <pntInfo lib="0" id="347" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="153" isVisible="1" minScale="0." maxScale="0." value="153">
+        <geoInfo>
+          <pntInfo lib="0" id="311" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="154" isVisible="1" minScale="0." maxScale="0." value="154">
+        <geoInfo>
+          <pntInfo lib="0" id="349" height="5" width="5" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="214" isVisible="1" minScale="0." maxScale="0." value="214">
+        <geoInfo>
+          <pntInfo lib="0" id="312" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="221" isVisible="1" minScale="0." maxScale="0." value="221">
+        <geoInfo>
+          <pntInfo lib="0" id="314" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="222" isVisible="1" minScale="0." maxScale="0." value="222">
+        <geoInfo>
+          <pntInfo lib="0" id="315" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="223" isVisible="1" minScale="0." maxScale="0." value="223">
+        <geoInfo>
+          <pntInfo lib="0" id="316" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="224" isVisible="1" minScale="0." maxScale="0." value="224">
+        <geoInfo>
+          <pntInfo lib="0" id="317" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="225" isVisible="1" minScale="0." maxScale="0." value="225">
+        <geoInfo>
+          <pntInfo lib="0" id="318" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="226" isVisible="1" minScale="0." maxScale="0." value="226">
+        <geoInfo>
+          <pntInfo lib="0" id="319" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="227" isVisible="1" minScale="0." maxScale="0." value="227">
+        <geoInfo>
+          <pntInfo lib="0" id="352" height="5" width="5" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="231" isVisible="1" minScale="0." maxScale="0." value="231">
+        <geoInfo>
+          <pntInfo lib="0" id="320" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="232" isVisible="1" minScale="0." maxScale="0." value="232">
+        <geoInfo>
+          <pntInfo lib="0" id="321" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="233" isVisible="1" minScale="0." maxScale="0." value="233">
+        <geoInfo>
+          <pntInfo lib="0" id="322" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="31" isVisible="1" minScale="0." maxScale="0." value="31">
+        <geoInfo>
+          <pntInfo lib="0" id="353" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="313" isVisible="1" minScale="0." maxScale="0." value="313">
+        <geoInfo>
+          <pntInfo lib="0" id="323" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="32" isVisible="1" minScale="0." maxScale="0." value="32">
+        <geoInfo>
+          <pntInfo lib="0" id="413" height="5" width="5" angle="0" outpenw="0;0;0" outclr="36;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</themes>

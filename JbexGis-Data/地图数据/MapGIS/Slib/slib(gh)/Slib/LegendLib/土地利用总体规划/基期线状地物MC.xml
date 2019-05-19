@@ -1,0 +1,64 @@
+<themes>
+  <subnode name="基期线状地物(地类名称)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="2">
+    <state>VISIBLE</state>
+    <expression>地类名称</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0;0" outclr="51;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+        </linInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="公路用地" isVisible="1" minScale="0." maxScale="0." value="公路用地">
+        <geoInfo>
+          <linInfo lib="0" id="90" ovprnt="0" outpenw="0.2;0;0" outclr="141;9;0" headtype="0" jointype="0" adjustflg="1" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="农村道路" isVisible="1" minScale="0." maxScale="0." value="农村道路">
+        <geoInfo>
+          <linInfo lib="0" id="86" ovprnt="0" outpenw="0.1;0;0" outclr="144;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="2" yscale="2">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="农田水利用地" isVisible="1" minScale="0." maxScale="0." value="农田水利用地">
+        <geoInfo>
+          <linInfo lib="0" id="107" ovprnt="0" outpenw="0.2;0;0" outclr="137;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水工建筑用地" isVisible="1" minScale="0." maxScale="0." value="水工建筑用地">
+        <geoInfo>
+          <linInfo lib="0" id="93" ovprnt="0" outpenw="0.2;0;0" outclr="163;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="1.8" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="湖泊水面" isVisible="1" minScale="0." maxScale="0." value="湖泊水面">
+        <geoInfo>
+          <linInfo lib="0" id="94" ovprnt="0" outpenw="0.1;0;0" outclr="136;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="田坎" isVisible="1" minScale="0." maxScale="0." value="田坎">
+        <geoInfo>
+          <linInfo lib="0" id="87" ovprnt="0" outpenw="0.2;0;0" outclr="145;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="2" yscale="2">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="管道运输用地" isVisible="1" minScale="0." maxScale="0." value="管道运输用地">
+        <geoInfo>
+          <linInfo lib="0" id="108" ovprnt="0" outpenw="0.2;0;0" outclr="164;1;0" headtype="0" jointype="0" adjustflg="1" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="铁路用地" isVisible="1" minScale="0." maxScale="0." value="铁路用地">
+        <geoInfo>
+          <linInfo lib="0" id="88" ovprnt="0" outpenw="0.2;0;0" outclr="1;9;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="12" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</themes>

@@ -1,0 +1,196 @@
+<themes>
+  <subnode name="基期地类图斑(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="3">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="0" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+        </regInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="11" isVisible="1" minScale="0." maxScale="0." value="11">
+        <geoInfo>
+          <regInfo lib="0" id="57" ovprnt="0" fillmode="0" fillclr="131" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="111" isVisible="1" minScale="0." maxScale="0." value="111">
+        <geoInfo>
+          <regInfo lib="0" id="66" ovprnt="0" fillmode="0" fillclr="131" endclr="0" pathei="8" patwid="15" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="112" isVisible="1" minScale="0." maxScale="0." value="112">
+        <geoInfo>
+          <regInfo lib="0" id="66" ovprnt="0" fillmode="0" fillclr="131" endclr="0" pathei="8" patwid="15" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="113" isVisible="1" minScale="0." maxScale="0." value="113">
+        <geoInfo>
+          <regInfo lib="0" id="66" ovprnt="0" fillmode="0" fillclr="131" endclr="0" pathei="8" patwid="15" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="12" isVisible="1" minScale="0." maxScale="0." value="12">
+        <geoInfo>
+          <regInfo lib="0" id="58" ovprnt="0" fillmode="0" fillclr="134" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="13" isVisible="1" minScale="0." maxScale="0." value="13">
+        <geoInfo>
+          <regInfo lib="0" id="59" ovprnt="0" fillmode="0" fillclr="132" endclr="0" pathei="24" patwid="12" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="14" isVisible="1" minScale="0." maxScale="0." value="14">
+        <geoInfo>
+          <regInfo lib="0" id="60" ovprnt="0" fillmode="0" fillclr="133" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="151" isVisible="1" minScale="0." maxScale="0." value="151">
+        <geoInfo>
+          <regInfo lib="0" id="61" ovprnt="0" fillmode="0" fillclr="135" endclr="0" pathei="6.5" patwid="6.5" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="153" isVisible="1" minScale="0." maxScale="0." value="153">
+        <geoInfo>
+          <regInfo lib="0" id="62" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="154" isVisible="1" minScale="0." maxScale="0." value="154">
+        <geoInfo>
+          <regInfo lib="0" id="62" ovprnt="0" fillmode="0" fillclr="137" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="211" isVisible="1" minScale="0." maxScale="0." value="211">
+        <geoInfo>
+          <regInfo lib="0" id="36" ovprnt="0" fillmode="0" fillclr="50" endclr="0" pathei="5.66" patwid="5.66" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="212" isVisible="1" minScale="0." maxScale="0." value="212">
+        <geoInfo>
+          <regInfo lib="0" id="36" ovprnt="0" fillmode="0" fillclr="50" endclr="0" pathei="5.66" patwid="5.66" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="213" isVisible="1" minScale="0." maxScale="0." value="213">
+        <geoInfo>
+          <regInfo lib="0" id="37" ovprnt="0" fillmode="0" fillclr="139" endclr="0" pathei="5.66" patwid="5.66" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="214" isVisible="1" minScale="0." maxScale="0." value="214">
+        <geoInfo>
+          <regInfo lib="0" id="39" ovprnt="0" fillmode="0" fillclr="140" endclr="0" pathei="8" patwid="8" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="215" isVisible="1" minScale="0." maxScale="0." value="215">
+        <geoInfo>
+          <regInfo lib="0" id="63" ovprnt="0" fillmode="0" fillclr="140" endclr="0" pathei="5.5" patwid="5.5" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="221" isVisible="1" minScale="0." maxScale="0." value="221">
+        <geoInfo>
+          <regInfo lib="0" id="38" ovprnt="0" fillmode="0" fillclr="141" endclr="0" pathei="4" patwid="4" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="222" isVisible="1" minScale="0." maxScale="0." value="222">
+        <geoInfo>
+          <regInfo lib="0" id="38" ovprnt="0" fillmode="0" fillclr="141" endclr="0" pathei="4" patwid="4" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="223" isVisible="1" minScale="0." maxScale="0." value="223">
+        <geoInfo>
+          <regInfo lib="0" id="38" ovprnt="0" fillmode="0" fillclr="141" endclr="0" pathei="4" patwid="4" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="224" isVisible="1" minScale="0." maxScale="0." value="224">
+        <geoInfo>
+          <regInfo lib="0" id="38" ovprnt="0" fillmode="0" fillclr="141" endclr="0" pathei="4" patwid="4" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="225" isVisible="1" minScale="0." maxScale="0." value="225">
+        <geoInfo>
+          <regInfo lib="0" id="38" ovprnt="0" fillmode="0" fillclr="141" endclr="0" pathei="4" patwid="4" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="226" isVisible="1" minScale="0." maxScale="0." value="226">
+        <geoInfo>
+          <regInfo lib="0" id="62" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="227" isVisible="1" minScale="0." maxScale="0." value="227">
+        <geoInfo>
+          <regInfo lib="0" id="17" ovprnt="0" fillmode="0" fillclr="163" endclr="0" pathei="6.5" patwid="6.5" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="231" isVisible="1" minScale="0." maxScale="0." value="231">
+        <geoInfo>
+          <regInfo lib="0" id="40" ovprnt="0" fillmode="0" fillclr="142" endclr="0" pathei="3" patwid="3" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="232" isVisible="1" minScale="0." maxScale="0." value="232">
+        <geoInfo>
+          <regInfo lib="0" id="40" ovprnt="0" fillmode="0" fillclr="142" endclr="0" pathei="3" patwid="3" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="233" isVisible="1" minScale="0." maxScale="0." value="233">
+        <geoInfo>
+          <regInfo lib="0" id="41" ovprnt="0" fillmode="0" fillclr="142" endclr="0" pathei="6" patwid="6" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="31" isVisible="1" minScale="0." maxScale="0." value="31">
+        <geoInfo>
+          <regInfo lib="0" id="62" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="311" isVisible="1" minScale="0." maxScale="0." value="311">
+        <geoInfo>
+          <regInfo lib="0" id="62" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="312" isVisible="1" minScale="0." maxScale="0." value="312">
+        <geoInfo>
+          <regInfo lib="0" id="62" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="313" isVisible="1" minScale="0." maxScale="0." value="313">
+        <geoInfo>
+          <regInfo lib="0" id="62" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="32" isVisible="1" minScale="0." maxScale="0." value="32">
+        <geoInfo>
+          <regInfo lib="0" id="65" ovprnt="0" fillmode="0" fillclr="143" endclr="0" pathei="9" patwid="9" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</themes>

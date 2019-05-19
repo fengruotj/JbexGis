@@ -1,0 +1,244 @@
+<rootName>
+  <subnode name="XZDLTB(地类名称)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="3">
+    <state>VISIBLE</state>
+    <expression>地类名称</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="51" endclr="0" pathei="50" patwid="50" ang="0" patclr="3" outpenw="1" fullpatflg="0">
+        </regInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="水田" isVisible="1" minScale="0." maxScale="0." value="水田">
+        <geoInfo>
+          <regInfo lib="0" id="1" ovprnt="0" fillmode="0" fillclr="64" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="34" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水浇地" isVisible="1" minScale="0." maxScale="0." value="水浇地">
+        <geoInfo>
+          <regInfo lib="0" id="2" ovprnt="0" fillmode="0" fillclr="69" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="34" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="旱地" isVisible="1" minScale="0." maxScale="0." value="旱地">
+        <geoInfo>
+          <regInfo lib="0" id="3" ovprnt="0" fillmode="0" fillclr="12" endclr="0" pathei="16.8" patwid="34" ang="0" patclr="34" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="果园" isVisible="1" minScale="0." maxScale="0." value="果园">
+        <geoInfo>
+          <regInfo lib="0" id="4" ovprnt="0" fillmode="0" fillclr="44" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="33" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="有林地" isVisible="1" minScale="0." maxScale="0." value="有林地">
+        <geoInfo>
+          <regInfo lib="0" id="7" ovprnt="0" fillmode="0" fillclr="32" endclr="0" pathei="16.7" patwid="16.7" ang="0" patclr="1" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="灌木林" isVisible="1" minScale="0." maxScale="0." value="灌木林">
+        <geoInfo>
+          <regInfo lib="0" id="8" ovprnt="0" fillmode="0" fillclr="31" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="8" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="天然牧草地" isVisible="1" minScale="0." maxScale="0." value="天然牧草地">
+        <geoInfo>
+          <regInfo lib="0" id="10" ovprnt="0" fillmode="0" fillclr="24" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="35" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="茶园" isVisible="1" minScale="0." maxScale="0." value="茶园">
+        <geoInfo>
+          <regInfo lib="0" id="5" ovprnt="0" fillmode="0" fillclr="39" endclr="0" pathei="16.7" patwid="16.7" ang="0" patclr="33" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="其它园地" isVisible="1" minScale="0." maxScale="0." value="其它园地">
+        <geoInfo>
+          <regInfo lib="0" id="6" ovprnt="0" fillmode="0" fillclr="37" endclr="0" pathei="16.7" patwid="16.7" ang="0" patclr="33" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="人工牧草地" isVisible="1" minScale="0." maxScale="0." value="人工牧草地">
+        <geoInfo>
+          <regInfo lib="0" id="11" ovprnt="0" fillmode="0" fillclr="26" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="35" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="采矿用地" isVisible="1" minScale="0." maxScale="0." value="采矿用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="19" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="其它草地" isVisible="1" minScale="0." maxScale="0." value="其它草地">
+        <geoInfo>
+          <regInfo lib="0" id="12" ovprnt="0" fillmode="0" fillclr="21" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="35" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="沼泽地" isVisible="1" minScale="0." maxScale="0." value="沼泽地">
+        <geoInfo>
+          <regInfo lib="0" id="16" ovprnt="0" fillmode="0" fillclr="53" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="68" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="沙地" isVisible="1" minScale="0." maxScale="0." value="沙地">
+        <geoInfo>
+          <regInfo lib="0" id="18" ovprnt="0" fillmode="0" fillclr="55" endclr="0" pathei="3.2" patwid="3.2" ang="0" patclr="80" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="裸地" isVisible="1" minScale="0." maxScale="0." value="裸地">
+        <geoInfo>
+          <regInfo lib="0" id="19" ovprnt="0" fillmode="0" fillclr="52" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="63" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="风景名胜及特殊用地" isVisible="1" minScale="0." maxScale="0." value="风景名胜及特殊用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="47" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="公路用地" isVisible="1" minScale="0." maxScale="0." value="公路用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="25" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="农村道路面状" isVisible="1" minScale="0." maxScale="0." value="农村道路面状">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="25" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="湖泊水面" isVisible="1" minScale="0." maxScale="0." value="湖泊水面">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="60" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="河流水面" isVisible="1" minScale="0." maxScale="0." value="河流水面">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="60" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水库水面" isVisible="1" minScale="0." maxScale="0." value="水库水面">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="60" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="沿海滩涂" isVisible="1" minScale="0." maxScale="0." value="沿海滩涂">
+        <geoInfo>
+          <regInfo lib="0" id="13" ovprnt="0" fillmode="0" fillclr="51" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="36" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="铁路用地" isVisible="1" minScale="0." maxScale="0." value="铁路用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="23" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="设施农用地" isVisible="1" minScale="0." maxScale="0." value="设施农用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="49" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="村庄" isVisible="1" minScale="0." maxScale="0." value="村庄">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="63" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="城市" isVisible="1" minScale="0." maxScale="0." value="城市">
+        <geoInfo>
+          <regInfo lib="0" id="20" ovprnt="0" fillmode="0" fillclr="50" endclr="0" pathei="20" patwid="20" ang="0" patclr="89" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="建制镇" isVisible="1" minScale="0." maxScale="0." value="建制镇">
+        <geoInfo>
+          <regInfo lib="0" id="21" ovprnt="0" fillmode="0" fillclr="50" endclr="0" pathei="20" patwid="20" ang="0" patclr="89" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="冰川及永久积雪" isVisible="1" minScale="0." maxScale="0." value="冰川及永久积雪">
+        <geoInfo>
+          <regInfo lib="0" id="15" ovprnt="0" fillmode="0" fillclr="72" endclr="0" pathei="16.7" patwid="16.7" ang="0" patclr="66" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="空闲地" isVisible="1" minScale="0." maxScale="0." value="空闲地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="48" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水工建筑用地" isVisible="1" minScale="0." maxScale="0." value="水工建筑用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="15" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="街巷用地" isVisible="1" minScale="0." maxScale="0." value="街巷用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="57" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="港口码头用地" isVisible="1" minScale="0." maxScale="0." value="港口码头用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="45" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="坑塘水面" isVisible="1" minScale="0." maxScale="0." value="坑塘水面">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="59" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="沟渠" isVisible="1" minScale="0." maxScale="0." value="沟渠">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="59" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="机场用地" isVisible="1" minScale="0." maxScale="0." value="机场用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="45" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="管道运输用地" isVisible="1" minScale="0." maxScale="0." value="管道运输用地">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="45" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="其他林地" isVisible="1" minScale="0." maxScale="0." value="其他林地">
+        <geoInfo>
+          <regInfo lib="0" id="9" ovprnt="0" fillmode="0" fillclr="27" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="8" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="内陆滩涂" isVisible="1" minScale="0." maxScale="0." value="内陆滩涂">
+        <geoInfo>
+          <regInfo lib="0" id="14" ovprnt="0" fillmode="0" fillclr="51" endclr="0" pathei="16.8" patwid="16.8" ang="0" patclr="36" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</rootName>

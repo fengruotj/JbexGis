@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.basic.Activities"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name="com.basic.Application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >  
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="c48c0af3867e5b8ce421a52be660259e" />
+
+        <activity
+            android:name="com.basic.Activities.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.ChatActivity"
+            android:label="@string/title_activity_chat" >
+        </activity>
+        <activity android:name="com.basic.Activities.RegisterActivity" >
+        </activity>
+        <activity android:name="com.basic.Activities.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.basic.Activities.PersonInfoActivity" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.ChooseSchoolActivity"
+            android:label="@string/title_activity_choose_school" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.CollectionActivity"
+            android:label="@string/title_activity_collection" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MyattentionActivity"
+            android:label="@string/title_activity_myattention" >
+        </activity>
+
+        <service android:name="com.basic.connectservice.ConnectService_Login" >
+        </service>
+        <service android:name="com.basic.connectservice.ConnectService_Register" >
+        </service>
+
+        <activity
+            android:name="com.basic.Activities.SearchFriendsActivity"
+            android:label="@string/title_activity_search_friends" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.FriendsInfoActivity"
+            android:label="@string/title_activity_friends_info" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.AddFriendActivity"
+            android:label="@string/title_activity_add_friend" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MoreInfoActivity"
+            android:label="@string/title_activity_more_info" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.InputInfoActivity"
+            android:label="@string/title_activity_input_info" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.ValidationMessageActivity"
+            android:label="@string/title_activity_validation_message" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.FriendRequestActivity"
+            android:label="@string/title_activity_friend_request" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.AcceptFriendRequestActivity"
+            android:label="@string/title_activity_accept_friend_request" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.AttetnionUserInfoActivity"
+            android:label="@string/title_activity_attetnion_user_info" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.AboutSchool"
+            android:label="@string/title_activity_about_school" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.SelictDot"
+            android:label="@string/title_activity_selict_dot" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.SelectDot"
+            android:label="@string/title_activity_select_dot" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.Details"
+            android:label="@string/title_activity_details" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.EditPublic"
+            android:label="@string/title_activity_edit_public" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.JbexActivity"
+            android:label="@string/title_activity_jbex" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.DT_index"
+            android:label="@string/title_activity_dt_index" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.DT_details"
+            android:label="@string/title_activity_dt_details" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.DT_seletedot"
+            android:label="@string/title_activity_dt_seletedot" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.DT_edit"
+            android:label="@string/title_activity_dt_edit" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.JbexSelectDot"
+            android:label="@string/title_activity_jbex_select_dot" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.JbexEditActivity"
+            android:label="@string/title_activity_jbex_edit" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.JbexDetailsActivity"
+            android:label="@string/title_activity_jbex_details" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MyPublishActivity"
+            android:label="@string/title_activity_my_publish" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MyPublishJbexActivity"
+            android:label="@string/title_activity_my_publish_jbex" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MyPublishJbexRequestActivity"
+            android:label="@string/title_activity_my_publish_jbex_request" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MineSettingActivity"
+            android:label="@string/title_activity_mine_setting" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MyPublishDynamciAcvtivity"
+            android:label="@string/title_activity_my_publish_dynamci_acvtivity" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.MyPublishPublicActivity"
+            android:label="@string/title_activity_my_publish_public" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.NavigationActivity"
+            android:label="@string/title_activity_navigation" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.SchoolInfoActivity"
+            android:label="@string/title_activity_school_info" >
+        </activity>
+        <activity
+            android:name="com.base.jbex.FootRoutActivity"
+            android:label="@string/title_activity_foot_rout" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.RouteActivity"
+            android:label="@string/title_activity_route" >
+        </activity>
+        <activity
+            android:name="com.basic.Activities.PoiSearchActivity"
+            android:label="@string/title_activity_poi_search" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,46 @@
+<themes>
+  <subnode name="土地整治重点区域BM(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="3">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="51" endclr="0" pathei="50" patwid="50" ang="0" patclr="3" outpenw="1" fullpatflg="0">
+        </regInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="01" isVisible="1" minScale="0." maxScale="0." value="01">
+        <geoInfo>
+          <regInfo lib="0" id="38" ovprnt="1" fillmode="0" fillclr="9" endclr="0" pathei="12" patwid="12" ang="0" patclr="5" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="02" isVisible="1" minScale="0." maxScale="0." value="02">
+        <geoInfo>
+          <regInfo lib="0" id="37" ovprnt="1" fillmode="0" fillclr="9" endclr="0" pathei="14.17" patwid="14.17" ang="0" patclr="5" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="03" isVisible="1" minScale="0." maxScale="0." value="03">
+        <geoInfo>
+          <regInfo lib="0" id="28" ovprnt="1" fillmode="0" fillclr="9" endclr="0" pathei="28.2885" patwid="28.2885" ang="0" patclr="5" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="04" isVisible="1" minScale="0." maxScale="0." value="04">
+        <geoInfo>
+          <regInfo lib="0" id="39" ovprnt="1" fillmode="0" fillclr="9" endclr="0" pathei="20" patwid="20" ang="0" patclr="5" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="05" isVisible="1" minScale="0." maxScale="0." value="05">
+        <geoInfo>
+          <regInfo lib="0" id="36" ovprnt="1" fillmode="0" fillclr="9" endclr="0" pathei="28.2885" patwid="28.2885" ang="0" patclr="5" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</themes>

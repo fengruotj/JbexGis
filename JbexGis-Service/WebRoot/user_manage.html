@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>User_ManageSystem</title>
+	<script type='text/javascript' src='js\OpenLayers.js'></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.francescomalagrino.com/BootstrapPageGenerator/3/js/jquery-ui"></script>
+	<link href="css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
+</head>
+
+<body onload='user_init();'>
+	<div class="container-fluid">
+		<div class="row-fluid">
+		    <div class="span3">
+	     		<h3>"微行"用户管理系统</h3>
+			</div>
+			<div class="span4">
+			    <br><br>
+				<span class="label">用户查找(输入user_id)：</span><br>
+				<input id="user_id" class="input-medium search-query" type="text" />
+				<button class="btn" onclick="queryUser()">查找</button>
+			</div>
+			<div class="span5">
+			    <br><br>
+				<span class="label">修改用户权限(输入user_id)</span>&nbsp;&nbsp;&nbsp;
+				<span class="label">输入SecurityControl(分别为0、1、2)</span><br>
+				<input id="user_id_update" class="input-medium search-query" type="text" />&nbsp;&nbsp;&nbsp;&nbsp;
+				<input id="value_SecurityControl" class="input-medium search-query" type="text" />&nbsp;&nbsp;&nbsp;
+				<button class="btn" onclick="updateUserSecurityControl()">修改</button>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span12">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>
+								user_id
+							</th>
+							<th>
+								email/user_name
+							</th>
+							<th>
+								password
+							</th>
+							<th>
+								user_nickname
+							</th>
+							<th>
+								person_signature
+							</th>
+							<th>
+								sex
+							</th>
+							<th>
+								school
+							</th>
+							<th>
+								academy
+							</th>
+							<th>
+								state
+							</th>
+							<th>
+								birthday
+							</th>
+							<th>
+								telephone
+							</th>
+							<th>
+								picture
+							</th>
+							<th>
+								SecurityControl
+							</th>
+						</tr>
+					</thead>
+				    <tbody id="tbody_">
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

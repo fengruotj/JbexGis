@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#3b5998">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/image"
+        android:paddingTop="25dp"
+        android:src="@drawable/login" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="90dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingTop="20dp"
+            android:background="@drawable/bgg" >
+
+            
+
+            <EditText
+                android:id="@+id/editText_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:hint="@string/userword"
+                android:inputType="textEmailAddress" 
+                android:paddingLeft="30dp"
+                android:background="@null"
+                >
+              
+                <requestFocus />
+            </EditText>
+        </TableRow>
+   <View 
+       android:layout_width="wrap_content"
+       android:layout_height="1dp"
+       android:background="#CDCDCD"/>
+   
+           <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingTop="10dp"
+              android:background="@drawable/bgg"  >
+
+            
+
+            <EditText
+                android:id="@+id/editText_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/password" 
+                android:inputType="textPassword"
+                android:paddingLeft="30dp"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp" >
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:text="登录" 
+            android:textColor="#FFFFFF"
+           android:background="@color/mainTheme_btn"
+           android:onClick="loginbtn"
+            />
+    </LinearLayout>
+
+    
+
+    
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/registerTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:onClick="registerbtn"
+            android:layout_alignParentBottom="true"
+            android:text="其他方式登录?"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            />
+        
+         <TextView
+            android:id="@+id/registerTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+           android:layout_above="@+id/registerTxt1"
+           android:layout_marginBottom="25dp"
+            android:text="注册CSS新用户"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

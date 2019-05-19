@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MoreInfoActivity"
+    android:orientation="vertical"
+    android:background="#f2f2f2" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/usermainpage_bg_center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+        </ListView>
+    </LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+          android:layout_marginTop="15dip"      
+        android:background="@drawable/usermainpage_bg_center" 
+        android:orientation="vertical"  
+            >
+    <RelativeLayout
+        android:id="@+id/group_layout_01"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"      
+        android:clickable="true"
+      
+      
+        ><TextView
+            android:id="@+id/card_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="特别关注"
+            android:textColor="#202020"
+            android:textSize="16sp" />
+
+        <com.basic.ui.SlipButton
+            android:id="@+id/attentionSlipButton"
+            android:layout_width="80dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="-10dip" />
+    </RelativeLayout>
+        </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="60dp"
+            android:background="@color/mainTheme_btn"
+            android:onClick="deleteFriend"
+            android:text="删除好友"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+    
+</LinearLayout>

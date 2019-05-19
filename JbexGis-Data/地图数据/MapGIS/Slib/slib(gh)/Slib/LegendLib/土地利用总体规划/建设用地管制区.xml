@@ -1,0 +1,46 @@
+<rootName>
+  <subnode name="JSYDGZQ(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="3">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="51" endclr="0" pathei="50" patwid="50" ang="0" patclr="3" outpenw="1" fullpatflg="0">
+        </regInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="010" isVisible="1" minScale="0." maxScale="0." value="010">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="50" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="030" isVisible="1" minScale="0." maxScale="0." value="030">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="146" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="020" isVisible="1" minScale="0." maxScale="0." value="020">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="123" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="040" isVisible="1" minScale="0." maxScale="0." value="040">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="154" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="045" isVisible="1" minScale="0." maxScale="0." value="045">
+        <geoInfo>
+          <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="100" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</rootName>

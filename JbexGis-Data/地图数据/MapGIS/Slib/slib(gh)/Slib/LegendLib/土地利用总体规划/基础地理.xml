@@ -1,0 +1,88 @@
+<rootName>
+  <subnode name="JCDL(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="2">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0;0" outclr="51;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+        </linInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="640200" isVisible="1" minScale="0." maxScale="0." value="640200">
+        <geoInfo>
+          <linInfo lib="0" id="102" ovprnt="0" outpenw="0.4;0;0" outclr="1;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="9" yscale="9">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="650200" isVisible="1" minScale="0." maxScale="0." value="650200">
+        <geoInfo>
+          <linInfo lib="0" id="126" ovprnt="0" outpenw="0.3;0;0" outclr="1;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="5" yscale="5">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="660200" isVisible="1" minScale="0." maxScale="0." value="660200">
+        <geoInfo>
+          <linInfo lib="0" id="104" ovprnt="0" outpenw="0.3;0;0" outclr="1;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="13" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="670500" isVisible="1" minScale="0." maxScale="0." value="670500">
+        <geoInfo>
+          <linInfo lib="0" id="105" ovprnt="0" outpenw="0.2;0;0" outclr="1;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="13" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="600003" isVisible="1" minScale="0." maxScale="0." value="600003">
+        <geoInfo>
+          <linInfo lib="0" id="8" ovprnt="0" outpenw="0.2;0;0" outclr="8;0;0" headtype="0" jointype="0" adjustflg="1" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="600009" isVisible="1" minScale="0." maxScale="0." value="600009">
+        <geoInfo>
+          <linInfo lib="0" id="136" ovprnt="0" outpenw="0.2;0;0" outclr="1;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="250200" isVisible="1" minScale="0." maxScale="0." value="250200">
+        <geoInfo>
+          <linInfo lib="0" id="1" ovprnt="0" outpenw="0.12;0;0" outclr="66;0;0" headtype="0" jointype="0" adjustflg="1" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="620200" isVisible="1" minScale="0." maxScale="0." value="620200">
+        <geoInfo>
+          <linInfo lib="0" id="99" ovprnt="0" outpenw="0.6;0;0" outclr="1;1;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="7" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="600002" isVisible="1" minScale="0." maxScale="0." value="600002">
+        <geoInfo>
+          <linInfo lib="0" id="112" ovprnt="0" outpenw="0.6;0;0" outclr="1;1;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="7" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="630200" isVisible="1" minScale="0." maxScale="0." value="630200">
+        <geoInfo>
+          <linInfo lib="0" id="101" ovprnt="0" outpenw="0.5;0;0" outclr="1;0;0" headtype="1" jointype="0" adjustflg="1" makemethod="0" xscale="8" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="110" isVisible="1" minScale="0." maxScale="0." value="110">
+        <geoInfo>
+          <linInfo lib="0" id="1" ovprnt="0" outpenw="0.15;0;0" outclr="36;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="250202" isVisible="1" minScale="0." maxScale="0." value="250202">
+        <geoInfo>
+          <linInfo lib="0" id="1" ovprnt="0" outpenw="0.2;0;0" outclr="165;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</rootName>

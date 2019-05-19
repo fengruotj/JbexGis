@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFriendsActivity" >
+
+    <com.basic.ui.ClearEditText
+        android:id="@+id/emailText"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="15.0dip"
+        android:background="@drawable/search_bar_edit_selector"
+        android:drawableLeft="@drawable/search_bar_icon_normal"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="15dip"
+        android:hint="微行账号"
+        android:singleLine="true"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btn_OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/emailText"
+        android:layout_marginTop="23dp"
+        android:background="@color/mainTheme_btn"
+        android:onClick="searchfriend"
+        android:text="添加好友"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

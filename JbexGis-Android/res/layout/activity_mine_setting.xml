@@ -1,0 +1,165 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+>
+    
+      <LinearLayout 
+     android:id="@+id/p_layout"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical" 
+        >
+   
+           <ImageView 
+              
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+              
+              />
+           
+          <LinearLayout 
+            
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+          android:layout_marginTop="15dip"      
+        android:background="@drawable/usermainpage_bg_center" 
+        android:orientation="vertical"  
+            >
+        <ImageView  
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+              
+              />
+   
+          <RelativeLayout
+        android:id="@+id/group_layout_about"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"      
+        android:clickable="true"
+      
+      
+        >
+          
+           <TextView
+        android:id="@+id/card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20dip"
+        android:layout_centerVertical="true"  
+        android:text="关于"
+        android:textSize="16sp"
+        android:textColor="#202020"
+       
+        />
+          <ImageView
+                android:id="@+id/row_img_01"
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+              
+       
+
+          </RelativeLayout>
+          
+          <ImageView 
+              
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+              
+              />
+          
+          </LinearLayout>
+          
+          
+             <LinearLayout 
+            
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+          android:layout_marginTop="15dip"      
+        android:background="@drawable/usermainpage_bg_center" 
+        android:orientation="vertical"  
+            >
+          
+                  <ImageView  
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+              
+              />
+          
+          <RelativeLayout
+        android:id="@+id/group_layout_chat"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"      
+        android:clickable="true"
+      
+      
+        >
+          
+           <TextView
+        android:id="@+id/card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20dip"
+        android:layout_centerVertical="true"  
+        android:text="清空聊天记录"
+        android:textSize="16sp"
+        android:textColor="#202020"
+       
+        />
+          <ImageView
+                android:id="@+id/row_img_02"
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+              
+       
+
+          </RelativeLayout>
+        <ImageView 
+              
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+              
+              />
+   </LinearLayout>
+
+             <RelativeLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent" >
+
+                 <Button
+                     android:id="@+id/exit__btn"
+                     android:layout_width="fill_parent"
+                     android:layout_height="50dip"
+                      android:layout_marginTop="15dip"
+                     android:layout_marginLeft="10dip" 
+                     android:layout_marginRight="10dip" 
+                     android:layout_alignParentBottom="true"
+                     android:layout_alignParentLeft="true"
+                     android:layout_marginBottom="46dp"
+                     android:background="@color/red"
+                     android:text="退出登录"
+                     android:textColor="#fff"
+                     android:textSize="16sp" />
+
+             </RelativeLayout>
+
+    </LinearLayout>
+    
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<themes>
+  <subnode name="行政区" type="FourColorTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="3">
+    <state>VISIBLE</state>
+    <colors>2;3;4;7;29</colors>
+  </subnode>
+</themes>

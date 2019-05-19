@@ -1,0 +1,59 @@
+﻿<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>My OpenLayers Map</title>
+	<script type='text/javascript' src='js\OpenLayers.js'></script>
+	<script type="text/javascript" src="js/json2.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.francescomalagrino.com/BootstrapPageGenerator/3/js/jquery-ui"></script>
+	<link href="css/bootstrap-combined.min.css" rel="stylesheet" media="screen">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/myjs.js"></script>
+</head>
+
+<body onload='init();'>
+	<div class="container-fluid" id="LG">
+		<div class="row-fluid">
+			<div class="span12">
+				<h3>"微行"后台Web端管理</h3>
+				<div class="row-fluid">
+					<div class="span3">
+						<div class="row-fluid">
+							<div class="span13">
+								<div>
+									查找的图层名：public、jbex、dynamic三个值
+									<input class="input-medium search-query" type="text" id="layerkind" autocomplete="on" />
+									<br>
+									<br> 需要查找的point点ID(可选)：
+									<input class="input-medium search-query" type="text" id="layerid" autocomplete="on" />
+									<br>
+									<br>
+									<button class="btn" onclick="queryData()">查找</button>
+									<br>
+									<br>
+									<br>
+									<br>
+								</div>
+								<div id="ct">
+									<dialog id="tableDialog"></dialog>
+								</div>
+							</div>
+							<div id="usermanage">
+							<form action="user_manage.html" method="post">
+								<div class="col-md-12">
+									<input name="xxx" type="submit" class="btn" value="用户管理">
+								</div>
+							</form>
+							</div>
+						</div>
+					</div>
+					<div class="span9" id='map'>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/search_edit_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-10.0dip"
+        android:background="@drawable/search_plate_global"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/EditTextSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="1.0dip"
+            android:layout_marginLeft="9.0dip"
+            android:layout_marginRight="7.0dip"
+            android:layout_marginTop="1.0dip"
+            android:layout_weight="1.0"
+            android:background="@drawable/btn_map_poi"
+            android:drawableLeft="@drawable/icon_poisearch"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textSize="18.0sp" 
+            android:hint="请输入查询条件"
+            android:focusableInTouchMode="true"/>"
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="fill_parent"
+            android:layout_height="39dip"
+            android:layout_marginTop="2.0dip"
+            android:layout_weight="2.0"
+            android:text="搜索" 
+            android:onClick="doPoiSearchQuery"/>
+    </LinearLayout>
+        
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+      <com.zondy.mapgis.android.mapview.MapView
+         android:id="@+id/mapview"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent">
+       </com.zondy.mapgis.android.mapview.MapView>   
+    </FrameLayout>
+</LinearLayout>

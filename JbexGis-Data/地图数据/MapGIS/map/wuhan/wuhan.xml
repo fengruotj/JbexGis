@@ -1,0 +1,2083 @@
+<?xml version="1.0" encoding="gb2312"?>
+<datacenter>
+	<root filePath="MapGIS/Map/wuhan.xml" title="新文档" subject="" author="" category="" keywords="" comments="" version="MapGIS K10">
+		<subnode name="新地图" mapguid="c62ff536-7ce4-41e8-804c-2c1c2f06a053" type="Map" class="CreateMap@GisCartoPrj.dll">
+			<description/>
+			<isDisplayOnLayout>1</isDisplayOnLayout>
+			<isCustomEntireExtent>0</isCustomEntireExtent>
+			<customEntireExtent xmin="0." ymin="0." xmax="0." ymax="0."/>
+			<viewExtent xmin="12615958.525358" ymin="3499575.59914544" xmax="12852254.9231354" ymax="3679755.0409897"/>
+			<minScale></minScale>
+			<maxScale></maxScale>
+			<isFixedScalesDisplay>0</isFixedScalesDisplay>
+			<isProjTrans>0</isProjTrans>
+			<rotateCenter>
+				<X>0.</X>
+				<Y>0.</Y>
+			</rotateCenter>
+			<rotateAngle>0.</rotateAngle>
+			<backColor>9</backColor>
+			<backgroundImage/>
+			<displayHint>2</displayHint>
+			<fixedScales/>
+			<subnode name="武汉" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/武汉</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>1.e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bCustomSymbolShow="0" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" bCustomCoordDisp="0" bSlope="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="32" width="32" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="0" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>NAME</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="武汉_区" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/武汉_区</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>0.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bCustomSymbolShow="0" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" bCustomCoordDisp="0" bSlope="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="24" width="24" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="9" ovprnt="0" fillflg="1" backexp="0" backclr="1287" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>NAME</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="1287;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="武汉_区2" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/武汉_区2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>6.e-003</minScale>
+				<maxScale>6.e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bCustomSymbolShow="0" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" bCustomCoordDisp="0" bSlope="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="24" width="24" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="9" ovprnt="0" fillflg="1" backexp="0" backclr="1287" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>NAME</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="1287;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="武汉市边界线" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/武汉市边界线</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>0.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bCustomSymbolShow="0" bSymbolShow="0" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" dSymbolStopFollowMinScale="1." bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="14" width="14" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="0" ovprnt="0" fillflg="0" backexp="0" backclr="0" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression/>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="Green_polygon" type="SFeatureLayer" geometryType="3" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/Green_polygon</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>5.e-003</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bCustomSymbolShow="0" bSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" dSymbolStopFollowMinScale="1." bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>reg</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="0" isTryLabelOutside="0" isLimitLabelSmallRegion="0" smallRegionMaxArea="50." duplicateType="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="Water_polygon" type="SFeatureLayer" geometryType="3" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/Water_polygon</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>5.e-003</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bCustomSymbolShow="0" bSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" dSymbolStopFollowMinScale="1." bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="16" width="16" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1611" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>reg</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="0" isTryLabelOutside="0" isLimitLabelSmallRegion="0" smallRegionMaxArea="50." duplicateType="2"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="Railway_line" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/Railway_line</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>0.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-003" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="六级道路外线" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/六级道路内线</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.2</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.4" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+        <subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+          <state>VISIBLE</state>
+          <minScale>0.</minScale>
+          <maxScale>0.</maxScale>
+          <geoInfo>
+            <linInfo lib="0" id="1" ovprnt="0" outpenw="16;0;0" outclr="1560;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+          </geoInfo>
+        </subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="六级道路内线" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/六级道路内线</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.2</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.4" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+        <subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+          <state>VISIBLE</state>
+          <minScale>0.</minScale>
+          <maxScale>0.</maxScale>
+          <geoInfo>
+            <linInfo lib="0" id="1" ovprnt="0" outpenw="12;0;0" outclr="9;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+          </geoInfo>
+        </subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>1.</minScale>
+					<maxScale>1000.</maxScale>
+					<geoInfo>
+						<annInfo height="18" width="18" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1582" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name_chn</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="2" offset="0." restrictType="0" spreadType="1" repeatType="3" interval="10."/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="五级道路外线" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/五级道路内线</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>2.5e-002</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" dSymbolShowMinScale="0.2" bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.3" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+        <subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+          <state>VISIBLE</state>
+          <minScale>0.</minScale>
+          <maxScale>0.</maxScale>
+          <geoInfo>
+            <linInfo lib="0" id="1" ovprnt="0" outpenw="26;0;0" outclr="1560;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+          </geoInfo>
+        </subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="五级道路内线" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/五级道路内线</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.2</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.3" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+        <subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+          <state>VISIBLE</state>
+          <minScale>0.</minScale>
+          <maxScale>0.</maxScale>
+          <geoInfo>
+            <linInfo lib="0" id="1" ovprnt="0" outpenw="20;0;0" outclr="126;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+          </geoInfo>
+        </subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.5</minScale>
+					<maxScale>1000.</maxScale>
+					<geoInfo>
+						<annInfo height="18" width="18" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1582" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name_chn</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="2" offset="0." restrictType="0" spreadType="1" repeatType="3" interval="10."/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="四级道路外线3" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/四级道路内线3</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.3" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="40;0;0" outclr="1617;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="四级道路内线3" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/四级道路内线3</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.3" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="30;0;0" outclr="1618;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.2</minScale>
+					<maxScale>1000.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1632" ovprnt="4" fillflg="0" backexp="0" backclr="1618" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name_chn</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="2" offset="0." restrictType="0" spreadType="1" repeatType="3" interval="300."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="四级道路外线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/四级道路内线3</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>3.e-002</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="8.e-003" bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="1.2e-002" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="400;0;0" outclr="1629;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="四级道路内线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/四级道路内线3</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>3.e-002</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="1.2e-002" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="200;0;0" outclr="1619;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="四级道路外线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/四级道路内线3</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>2.999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" dSymbolShowMinScale="8.e-003" bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="1.2e-002" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="400;0;0" outclr="1621;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="四级道路内线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/四级道路内线3</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>8.e-003</minScale>
+				<maxScale>2.999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="1.2e-002" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="200;0;0" outclr="1622;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="2" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="三级道路外线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/三级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.2" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="50;0;0" outclr="1617;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="三级道路内线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/三级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.2" bAnnSizeFollowZoom="0" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="40;0;0" outclr="1618;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.12</minScale>
+					<maxScale>1000.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1632" ovprnt="4" fillflg="0" backexp="0" backclr="1616" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name_chn</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="1" repeatType="3" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="三级道路外线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/三级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.5e-003" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="800;0;0" outclr="1629;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="三级道路内线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/三级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.5e-003" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="600;0;0" outclr="1619;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="二级道路外线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/二级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>100.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.2" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="60;0;0" outclr="1615;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="二级道路内线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/二级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.2" bAnnSizeFollowZoom="0" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="50;0;0" outclr="1616;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.12</minScale>
+					<maxScale>1000.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1632" ovprnt="4" fillflg="0" backexp="0" backclr="1614" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name_chn</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="1" repeatType="3" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="二级道路外线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/二级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-003" bAnnSizeFollowZoom="0" bCustomCoordDisp="0"/>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="800;0;0" outclr="1615;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="14" width="14" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="0" ovprnt="0" fillflg="0" backexp="0" backclr="10" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="0" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="0."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="二级道路内线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/二级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-003" bAnnSizeFollowZoom="0" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="500;0;0" outclr="1616;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="一级道路外线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/一级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.2" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="60;0;0" outclr="1613;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="一级道路内线2" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/一级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.1</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="0.2" bAnnSizeFollowZoom="0" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="50;0;0" outclr="1614;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.12</minScale>
+					<maxScale>1000.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1631" ovprnt="4" fillflg="0" backexp="0" backclr="1614" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name_chn</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="1" repeatType="3" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="一级道路外线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/一级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="4.e-003" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="1000;0;0" outclr="1613;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="12" width="12" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="一级道路内线1" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/一级道路内线2</url>
+				<layerWeight>0</layerWeight>
+				<state>EDITABLE</state>
+				<minScale>0.</minScale>
+				<maxScale>9.999999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>78159919-a124-43e4-8cf4-5cef658b75fe</systemLibraryGUID>
+				<conditions/>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="4.e-003" bAnnSizeFollowZoom="0" bCustomCoordDisp="0" bDispCoord="1">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<subnode name="统一专题图" type="SimpleTheme" class="CreateGTheme@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<linInfo lib="-1" id="1" ovprnt="0" outpenw="600;0;0" outclr="1614;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</geoInfo>
+				</subnode>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="10."/>
+				</label>
+				<Extend>
+					<Expand>false</Expand>
+				</Extend>
+			</subnode>
+			<subnode name="武汉地铁线" type="SFeatureLayer" geometryType="2" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/武汉地铁线</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>1.2e-002</minScale>
+				<maxScale>100.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="3.e-002" bCustomCoordDisp="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="14" width="14" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="0" ovprnt="0" fillflg="0" backexp="0" backclr="10" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>mpLength</labelExpression>
+					<geomType>lin</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="0" offset="0." restrictType="0" spreadType="0" repeatType="0" interval="0."/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="武汉地铁站" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/武汉地铁站</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.3</minScale>
+				<maxScale>100.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bSlope="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="0" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>名称</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_火车站" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_火车站</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>1.2e-002</minScale>
+				<maxScale>1000.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" dSymbolStopFollowMinScale="1." bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_立交桥2" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_立交桥2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>7.e-002</minScale>
+				<maxScale>100.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1593" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_立交桥" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_立交桥</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>3.e-002</minScale>
+				<maxScale>6.999e-002</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bSlope="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1593" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="3" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_公园" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_公园</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>5.e-002</minScale>
+				<maxScale>0.15</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1604" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_公园2" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_公园2</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.15</minScale>
+				<maxScale>100.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1604" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>6</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_0.06" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url server="" user="" password="">GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_0_06</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>6.e-002</minScale>
+				<maxScale>0.11999</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>true</isNewLineToLabel>
+					<maxLengthPreLine>8</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_0.12" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url server="" user="" password="">GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_0_12</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.12</minScale>
+				<maxScale>0.2999</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bSlope="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>true</isNewLineToLabel>
+					<maxLengthPreLine>8</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_0.3" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url server="" user="" password="">GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_0_3</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.3</minScale>
+				<maxScale>0.5999</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>true</isNewLineToLabel>
+					<maxLengthPreLine>8</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_0.6" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url server="" user="" password="">GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_0_6</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>0.6</minScale>
+				<maxScale>0.999999</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>true</isNewLineToLabel>
+					<maxLengthPreLine>8</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+      <subnode name="交通信号灯" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+        <url server="" user="" password="">GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/交通信号灯</url>
+        <layerWeight>0</layerWeight>
+        <state>VISIBLE</state>
+        <minScale>0.1</minScale>
+        <maxScale>12</maxScale>
+        <directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+        <reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+        <systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+        <conditions>0000000000000000000000000000000000</conditions>
+        <vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+          <standbyPntInfo outclr="3;0;0"/>
+        </vectorRenderInfo>
+        <Extend/>
+      </subnode>
+			<subnode name="POI_1" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_1</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>1.</minScale>
+				<maxScale>2.999</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>true</isNewLineToLabel>
+					<maxLengthPreLine>8</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_3" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_3</url>
+				<layerWeight>0</layerWeight>
+				<state>ACTIVE</state>
+				<minScale>3.</minScale>
+				<maxScale>5.999</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="0" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>true</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>true</isNewLineToLabel>
+					<maxLengthPreLine>8</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_6" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url>GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_6</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>6.</minScale>
+				<maxScale>11.999</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" dSymbolShowMinScale="1." bCustomSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" dSymbolStopFollowMinScale="5.e-002" bCustomCoordDisp="0" bDispCoord="1" bSlope="0">
+					<standbyPntInfo outclr="3;0;0"/>
+				</vectorRenderInfo>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>VISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>Name</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>true</isNewLineToLabel>
+					<maxLengthPreLine>8</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+			<subnode name="POI_point_子图.wt" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+				<url server="" user="" password="">GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_point_子图_wt</url>
+				<layerWeight>0</layerWeight>
+				<state>VISIBLE</state>
+				<minScale>8.</minScale>
+				<maxScale>100.</maxScale>
+				<directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+				<systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+				<conditions>0000000000000000000000000000000000</conditions>
+				<vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" bCustomCoordDisp="0" bSlope="0"/>
+				<label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+					<state>UNVISIBLE</state>
+					<minScale>0.</minScale>
+					<maxScale>0.</maxScale>
+					<geoInfo>
+						<annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="0" chnt="0" ifnx="0" hvpl="0" iclr="0" ovprnt="0" fillflg="0" backexp="0" backclr="10" offsetx="0" offsety="0"/>
+					</geoInfo>
+					<labelExpression>ID</labelExpression>
+					<geomType>pnt</geomType>
+					<priority>1</priority>
+					<isLabelClientOutside>false</isLabelClientOutside>
+					<backType>1</backType>
+					<highlightClr>0</highlightClr>
+					<backGeoInfo>
+						<linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="9;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+					</backGeoInfo>
+					<numericPrecision>0</numericPrecision>
+					<isNewLineToLabel>false</isNewLineToLabel>
+					<maxLengthPreLine>0</maxLengthPreLine>
+					<isLabelUnPlaced>false</isLabelUnPlaced>
+					<reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+					<isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+					<labelFormat/>
+					<placeInfo type="1" offset="0." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="0" anyLocationPrioritys="" isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+				</label>
+				<Extend/>
+			</subnode>
+      <subnode name="POI_point_显示" type="SFeatureLayer" geometryType="1" class="CreateGLayer@GisCartoPrj.dll">
+        <url server="" user="" password="">GDBP://MapGISLocal/武汉市/ds/武汉市/sfcls/POI_point_显示</url>
+        <layerWeight>0</layerWeight>
+        <state>VISIBLE</state>
+        <minScale>8.</minScale>
+        <maxScale>100.</maxScale>
+        <directIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+        <reverseIndex transname="" InCord="0" InUnit="0" OutCord="0" OutUnit="0" type="0" lenunit="0" angunit="0" dx="0." dy="0." dz="0." wx="0." wy="0." wz="0." dm="0." ds2="0." dA2="0." df2="0." res1="0." res2="0." szEquationX="" szEquationY="" szEquationZ=""/>
+        <systemLibraryGUID>00000000-0000-0000-0000-000000000000</systemLibraryGUID>
+        <conditions>0000000000000000000000000000000000</conditions>
+        <vectorRenderInfo bSymbolShow="1" bCustomSymbolShow="1" bCustomSymbolShowMinScale="0" bCustomSymbolSizeFollowZoom="0" bSymbolSizeFollowZoom="0" bCustomSymbolPenWidthFollowZoom="0" bSymbolPenWidthFollowZoom="0" bCustomSymbolStopFollowMinScale="0" bCustomCoordDisp="0" bSlope="0"/>
+        <label name="noname" type="SimpleLabel" class="CreateGLabel@GisCartoPrj.dll">
+          <state>VISIBLE</state>
+          <minScale>0.</minScale>
+          <maxScale>0.</maxScale>
+          <geoInfo>
+            <annInfo height="20" width="20" space="0" fontang="0" strang="0" ifnt="2" chnt="0" ifnx="0" hvpl="0" iclr="1612" ovprnt="4" fillflg="0" backexp="0" backclr="9" offsetx="0" offsety="0"/>
+          </geoInfo>
+          <labelExpression>Name</labelExpression>
+          <geomType>pnt</geomType>
+          <priority>1</priority>
+          <isLabelClientOutside>false</isLabelClientOutside>
+          <backType>1</backType>
+          <highlightClr>0</highlightClr>
+          <backGeoInfo>
+            <linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0.05;0.05" outclr="0;4;3" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10"/>
+          </backGeoInfo>
+          <numericPrecision>0</numericPrecision>
+          <isNewLineToLabel>true</isNewLineToLabel>
+          <maxLengthPreLine>8</maxLengthPreLine>
+          <isLabelUnPlaced>false</isLabelUnPlaced>
+          <reducedSizeForContinulLabel>0</reducedSizeForContinulLabel>
+          <isHighlightLabelUnPlaced>false</isHighlightLabelUnPlaced>
+          <labelFormat/>
+          <placeInfo type="1" offset="12." eightLocationPrioritys="1;2;3;4;5;6;7;8" anyLocationCount="1" anyLocationPrioritys="0." isAvoidPointSymbol="0" isFollowPointSymbolBorder="0"/>
+        </label>
+        <Extend/>
+      </subnode>
+			<bookMarks/>
+			<Extend/>
+			<GraphicsData>
+				<Graphics_ann>R0RCRFVNUEYBAAEAAAAAAAUAAAAkAAAAYzlmNTA1NzgtZjkxMC00OGFlLWEyMGItNjkyZTExYWM2NzhkBgAAAAQAAAAAAAAAUAAAAAAAAAAAAQAAAAAAAIgBAAAAAAAAAgAAAAAAAAD/////////////////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAqpmZmZmZuX+qmZmZmZm5f6qZmZmZmbn/qpmZmZmZuf8AAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAckTdBwYZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgBQAAAQAAAAAAAAD/////gAEAAAAAAADABQAAAAAAAAAAAAAAAAAAcEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAQAAAAAAAAAAAgAAAAAAAAD/////////////////////</Graphics_ann>
+				<Graphics_Pnt>R0RCRFVNUEYBAAEAAAAAAAEAAAAkAAAAYzFlZWVkNTQtZmE1MS00NzAzLTljZWQtMGM4M2Q5NGUwMThlDAAAAAQAAAAAAAAAQAAAAAAAAAA4AAAAAAAAAP//////////AAAAAAAAAABYAAAAAAAAAP//////////////////////////////////////////iAEAAAAAAAACAAAAAAAAAP//////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACqmZmZmZm5f6qZmZmZmbl/qpmZmZmZuf+qmZmZmZm5/wAAAAAAAWUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAA//////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIEEAACBBAAAAAM3MTD3NzEw9zcxMPQUAAAAEAAAAAwAAAAABAACAPwEAAABYAAAAAAAAAP//////////////////////////////////////////ckTdBwYZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgBQAAAQAAAAAAAAD/////gAEAAAAAAADABQAAAAAAAAAAAAAAAAAAcEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAQAAAAAAAAAAAgAAAAAAAAD//////////w==</Graphics_Pnt>
+				<Graphics_Lin>R0RCRFVNUEYBAAEAAAAAAAIAAAAkAAAANTJkZTM1NTMtOGU5Zi00MmM1LWI5NjctZmJkNThkZTk1MzE0DAAAAAQAAAAAAAAAQAAAAAAAAAA4AAAAAAAAAP///////////////////////////////wAAAAAAAAAATwAAAAAAAAD/////////////////////iAEAAAAAAAACAAAAAAAAAP//////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAACqmZmZmZm5f6qZmZmZmbl/qpmZmZmZuf+qmZmZmZm5/wAAAAAAAWUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAA////////////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAzcxMPc3MTD3NzEw9AQAAAAQAAAADAAAAAAAAAAAAIEEAACBBTwAAAAAAAAD/////////////////////ckTdBwYZAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgBQAAAQAAAAAAAAD/////gAEAAAAAAADABQAAAAAAAAAAAAAAAAAAcEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAQAAAAAAAAAAAgAAAAAAAAD//////////w==</Graphics_Lin>
+				<Graphics_Reg>R0RCRFVNUEYBAAEAAAAAAAMAAAAkAAAANjg4NjYwMjgtMzRmMi00YjhmLWJjMGItMWJkNmZhNzUzNmUwDAAAAAQAAAAAAAAAQAAAAAAAAAA4AAAAAAAAAP////////////////////////////////////////////////////8AAAAAAAAAAEoAAAAAAAAAiAEAAAAAAAACAAAAAAAAAP//////////AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAACqmZmZmZm5f6qZmZmZmbl/qpmZmZmZuf+qmZmZmZm5/wAAAAAAAWUAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgAAAAAAAAA/////////////////////////////////////////////////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABQAAAAAAAAAAAKBAAACgQAAAAAADAAAAAACAPwFKAAAAAAAAAHJE3QcGGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AUAAAEAAAAAAAAA/////4ABAAAAAAAAwAUAAAAAAAAAAAAAAAAAAHBEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiAEAAAAAAAAAAAIAAAAAAAAA//////////8=</Graphics_Reg>
+			</GraphicsData>
+		</subnode>
+		<layout class="CreateLayOut@GisCartoPrj.dll">
+			<height>801.000000</height>
+			<width>554.000000</width>
+			<elements>
+				<element bFixAspect="0" bCanScale="1" bCanRotate="0" sysLibGuid="00000000-0000-0000-0000-000000000000" DynamicGridVisible="0" type="MapElement" class="CreateGElement@GisCartoPrj.dll" MapName="新地图" MapGuid="c62ff536-7ce4-41e8-804c-2c1c2f06a053">
+					<MapElementCustiomViewExtent>
+						<xmin>0.</xmin>
+						<ymin>0.</ymin>
+						<xmax>0.</xmax>
+						<ymax>0.</ymax>
+					</MapElementCustiomViewExtent>
+					<Extend/>
+					<border visible="0" xGrap="0." yGrap="0." BorderType="0">
+						<SimpleBorderInfo cornerRounding="0" FillType="0" lib="0" id="0" ovprnt="0" outpenw="0;0;0" outclr="0;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="0" yscale="0"/>
+						<LaceBorderInfo>
+							<corners>
+								<cornerLB dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"/>
+								<cornerRB dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"/>
+								<cornerRT dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"/>
+								<cornerLT dx="0." dy="0." lib="0" id="0" height="0" width="0" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0"/>
+							</corners>
+							<borders adjustmode="0">
+								<borderleft gap="0."/>
+								<borderright gap="0."/>
+								<bordertop gap="0."/>
+								<borderbottom gap="0."/>
+								<borderclose gap="0."/>
+							</borders>
+							<lines/>
+						</LaceBorderInfo>
+					</border>
+					<background visible="0" cornerRounding="0" xGrap="0." yGrap="0.">
+						<info lib="0" id="0" ovprnt="0" fillmode="0" fillclr="0" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0"/>
+					</background>
+					<shadow visible="0" cornerRounding="0" xGrap="0." yGrap="0.">
+						<info lib="0" id="0" ovprnt="0" fillmode="0" fillclr="0" endclr="0" pathei="0" patwid="0" ang="0" patclr="0" outpenw="0" fullpatflg="0"/>
+					</shadow>
+					<LogicRect xmin="0." ymin="0." xmax="594." ymax="841."/>
+				</element>
+			</elements>
+			<bookMarks/>
+		</layout>
+		<Extend/>
+	</root>
+</datacenter>

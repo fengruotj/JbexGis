@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DT_details" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+         android:background="@drawable/details_bj">
+
+        <ImageView
+            android:id="@+id/dt_userimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            
+            android:contentDescription="@string/nothing"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/dt_username"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:text="username"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <RelativeLayout
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/DT_icn"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" >
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                       
+                        android:src="@drawable/chat_tool_funny_face" 
+                        android:layout_centerInParent="true"
+                        
+                         />
+                </RelativeLayout>
+
+                
+				
+                    <RelativeLayout
+                        android:id="@+id/DT_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@id/DT_icn">
+
+                        <TextView
+                            android:id="@+id/DT_username"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="wojiao"
+                            android:textColor="@color/blue" 
+                            android:textSize="18dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="5dp"/>
+
+                        <View
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                           
+                            android:layout_toRightOf="@id/DT_username"/>
+                    </RelativeLayout>
+                
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:layout_marginTop="28dp"
+                    android:layout_toRightOf="@id/DT_icn" >
+
+                    <TextView
+                        android:id="@+id/dt_time"
+                        android:text="time_of_jbrx"
+                        android:layout_width="wrap_content"
+                    	android:layout_height="wrap_content"
+                        android:textColor="#dcdcdc" 
+                        android:layout_marginLeft="5dp"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/dt_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/nothing"
+            android:text="今天下午在学校旁边捡到了一只小狗  我们叫他hyman！ 下面上图"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+         >
+
+        <ImageView
+            android:id="@+id/dynamicinfo1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp" />
+
+        <ImageView
+            android:id="@+id/dynamicinfo2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

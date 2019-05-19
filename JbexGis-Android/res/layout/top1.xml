@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/mainTheme_btn"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/toggleMenu"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:onClick="toggleMenu"/>
+
+    </LinearLayout>
+          
+       <TextView 
+           android:id="@+id/main_Text"
+           android:layout_centerInParent="true"
+           android:text="我的消息"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:textColor="@color/white"
+            android:textSize="20sp"
+           >
+           </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/mainactivity_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/actionbar_add_icon" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

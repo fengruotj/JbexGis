@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tm_button_white_bg" 
+    tools:context=".MyPublishPublicActivity" >
+
+        <com.basic.pulltorefresh.PullToRefreshSwipeMenuListView
+        android:id="@+id/listmypublishpublic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+</RelativeLayout>

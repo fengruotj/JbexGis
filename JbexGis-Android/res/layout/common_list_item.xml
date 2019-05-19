@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48sp"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal|center_vertical|left" >
+ 	<ImageView
+        android:id="@+id/common_img"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp" 
+        android:contentDescription="@string/app_name"/>
+
+   <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_vertical">
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+		android:gravity="center_vertical"
+		android:layout_gravity="center_vertical"
+        android:focusable="false">
+        <LinearLayout
+            android:id="@+id/fldname_root"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+        	android:gravity="center_vertical"
+        	android:layout_gravity="center_vertical">
+	        <TextView android:id="@+id/common_fieldname"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#000000"
+	            android:textSize="15sp"
+	            android:gravity="center_vertical"
+	            android:layout_gravity="center_vertical"/>
+	        
+	 		<TextView android:id="@+id/common_fieldname_s"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#006699"
+	            android:textSize="10sp"
+	            android:visibility="gone"
+	            android:layout_marginLeft="10dp"/>
+	 		
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fldvalue_root"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView android:id="@+id/common_fieldvalue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#006699"
+	            android:textSize="12sp" 
+	            android:layout_marginRight="5dp"
+	            android:layout_marginLeft="2dp"/>
+        	<TextView android:id="@+id/fieldstate"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="#808080"
+	            android:textSize="12sp" 
+	            android:layout_marginLeft="5dp"
+	            android:visibility="gone"/>
+        </LinearLayout>
+        
+	</LinearLayout>
+	
+     
+     <RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:layout_gravity="center_vertical"
+	    android:background="@android:color/transparent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:descendantFocusability="blocksDescendants"
+            android:background="@android:color/transparent"
+            android:paddingRight="10sp">
+
+        	<CheckBox
+		        android:id="@+id/common_select_check"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="15dp"
+		        android:visibility="gone"
+		        android:focusable="false"
+		        android:layout_gravity="center_vertical"
+		        android:gravity="center_vertical"/>
+       		<RadioButton
+			    android:id="@+id/common_little_radio"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginRight="2dp"
+		        android:visibility="gone"
+			    android:focusable="false"
+			    android:layout_gravity="center_vertical"/>
+       		
+			<ImageView 
+       		    android:id="@+id/common_little_img"
+       		    android:layout_height="wrap_content"
+       		    android:layout_width="wrap_content"
+       		    android:src="@drawable/more_item_ico"
+       		    android:visibility="gone"
+       		    android:layout_gravity="center_vertical"
+		        android:gravity="center_vertical"/>
+
+		    <ImageView 
+		        android:id="@+id/common_select_delete"
+		        android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:src="@drawable/icon_fav_delete"
+			    android:visibility="gone"
+			    android:layout_marginRight="10dp"
+			    android:layout_gravity="center_vertical"/>		
+		 </LinearLayout>
+	</RelativeLayout >
+	</FrameLayout>	
+</LinearLayout>

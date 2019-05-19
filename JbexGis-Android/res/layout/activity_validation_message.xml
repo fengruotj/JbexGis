@@ -1,0 +1,170 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    tools:context=".ValidationMessageActivity" >
+
+<LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/usermainpage_bg_center" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/friendsName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+<LinearLayout 
+            
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+          android:layout_marginTop="15dip"      
+        android:background="@drawable/usermainpage_bg_center" 
+        android:orientation="vertical"  
+        android:onClick="addfriend"
+            >
+        <ImageView  
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+              />
+   
+          <RelativeLayout
+        android:id="@+id/group_layout_01"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"      
+        android:clickable="true"
+      android:onClick="addfriend"
+        >
+          
+           <TextView
+        android:id="@+id/card_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20dip"
+        android:layout_centerVertical="true"  
+        android:text="分组"
+        android:textSize="16sp"
+        android:textColor="#202020"
+       
+        />
+
+           <TextView
+               android:id="@+id/GroupName"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toLeftOf="@+id/row_img_01"
+               android:layout_centerVertical="true"
+               android:layout_marginRight="10dp"
+                android:textSize="16sp"
+               android:textColor="#202020"
+                />
+
+          <ImageView
+                android:id="@+id/row_img_01"
+            	android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"  
+        		android:layout_marginRight="10dip"      	     	
+        		android:scaleType="matrix"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />
+              
+       
+
+          </RelativeLayout>
+          
+          <ImageView 
+              
+             android:layout_width="fill_parent"
+             android:layout_height="1dip"    
+             android:background="@drawable/line"
+              
+              />
+          
+          </LinearLayout>
+          
+<RelativeLayout
+    android:id="@+id/superinput"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+    android:layout_marginLeft="10.0dip"
+    android:layout_marginRight="10.0dip"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/edit_bg" >
+
+    <EditText
+        android:id="@+id/signature_et"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:background="#00ffffff"
+        android:gravity="left"
+        android:hint="输入验证消息"
+        android:paddingLeft="12.0dip"
+        android:textColor="#808080"
+        android:textColorHint="#ff666666"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/edit_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center"
+        android:text="20"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+</RelativeLayout>
+       
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@color/mainTheme_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="发送请求"
+            android:onClick="sendRequest"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+</LinearLayout>

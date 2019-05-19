@@ -1,0 +1,34 @@
+<rootName>
+  <subnode name="QTSY(地类码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="3">
+    <state>VISIBLE</state>
+    <expression>地类码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <regInfo lib="0" id="0" ovprnt="0" fillmode="0" fillclr="51" endclr="0" pathei="50" patwid="50" ang="0" patclr="3" outpenw="1" fullpatflg="0">
+        </regInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="311" isVisible="1" minScale="0." maxScale="0." value="311">
+        <geoInfo>
+          <regInfo lib="0" id="35" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="312" isVisible="1" minScale="0." maxScale="0." value="312">
+        <geoInfo>
+          <regInfo lib="0" id="35" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="226" isVisible="1" minScale="0." maxScale="0." value="226">
+        <geoInfo>
+          <regInfo lib="0" id="35" ovprnt="0" fillmode="0" fillclr="136" endclr="0" pathei="10" patwid="10" ang="0" patclr="130" outpenw="0" fullpatflg="0">
+          </regInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</rootName>

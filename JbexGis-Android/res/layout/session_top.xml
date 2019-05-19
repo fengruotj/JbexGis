@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/mainTheme_btn"
+ >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton 
+           android:id="@+id/btn_back"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:background="@drawable/btn_back"
+           >
+           </ImageButton>
+
+        <TextView
+            android:id="@+id/backtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:text="返回" />
+           
+    </LinearLayout>
+          
+       <TextView 
+           android:id="@+id/main_Text"
+           android:layout_centerInParent="true"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:textColor="@color/white"
+            android:textSize="15sp"
+           >
+           </TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+         <ImageButton 
+           android:id="@+id/btn_nnavigation"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           >
+           </ImageButton>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

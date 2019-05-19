@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DT_edit" >
+    
+   <RelativeLayout
+    android:id="@+id/superinput"
+    android:layout_width="fill_parent"
+    android:layout_height="100dip"
+    android:layout_marginLeft="10.0dip"
+    android:layout_marginRight="10.0dip"
+    android:layout_marginTop="10dp"
+     >
+
+    <EditText
+        android:id="@+id/dt_etitText"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:gravity="left"
+        android:hint="說點什麼吧。。。"
+        android:paddingLeft="12.0dip"
+        android:background="@null"
+        android:textColor="#000000"
+        android:textColorHint="#ff666666"
+        android:textSize="16.0sp" />
+
+    <TextView
+        android:id="@+id/edit_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="10dip"
+        android:gravity="center"
+        android:text="30"
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+</RelativeLayout>
+
+   <TextView 
+       android:layout_height="2dp"
+       android:layout_width="match_parent"
+       android:background="#dcdcdc"/>
+   
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/superinput"
+    android:layout_marginTop="14dp"
+    >
+
+    <ImageView
+        android:id="@+id/dt_picture1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_add" />
+
+    <ImageView
+        android:id="@+id/dt_picture2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_add" />
+</LinearLayout>
+
+</RelativeLayout>

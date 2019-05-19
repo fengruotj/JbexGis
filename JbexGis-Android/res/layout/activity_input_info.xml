@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".InputInfoActivity" >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:lines="2"
+        android:ems="10" >
+    </EditText>
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/mainTheme_btn"
+        android:text="确定"
+        android:textColor="#FFFFFF" />
+    
+</LinearLayout>

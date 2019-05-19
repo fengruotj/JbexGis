@@ -1,0 +1,28 @@
+<rootName>
+  <subnode name="XZTDZZZDXM(要素代码)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="2">
+    <state>VISIBLE</state>
+    <expression>要素代码</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <linInfo lib="0" id="1" ovprnt="0" outpenw="0.05;0;0" outclr="51;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+        </linInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="2003020511" isVisible="1" minScale="0." maxScale="0." value="2003020511">
+        <geoInfo>
+          <linInfo lib="0" id="106" ovprnt="0" outpenw="1;0;0" outclr="5;0;0" headtype="1" jointype="0" adjustflg="0" makemethod="0" xscale="8" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="2003020572" isVisible="1" minScale="0." maxScale="0." value="2003020572">
+        <geoInfo>
+          <linInfo lib="0" id="106" ovprnt="0" outpenw="1;0;0" outclr="5;0;0" headtype="0" jointype="0" adjustflg="0" makemethod="0" xscale="10" yscale="10">
+          </linInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</rootName>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/img_msg_item"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/img_msg_item"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/name_msg_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/content_msg_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time_msg_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textSize="13sp" />
+  
+     <org.other.ui.DraggableFlagView
+            xmlns:dfv="http://schemas.android.com/apk/res/com.basic.Activities"
+            android:id="@+id/main_dfv"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="12dp"
+            dfv:color="#FF3B30"
+            />
+</RelativeLayout>

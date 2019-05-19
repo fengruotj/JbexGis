@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+     android:background="#dedede"
+android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/usermainpage_bg_center" 
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:layout_weight="3"
+                    android:textSize="15sp"
+                    android:text="标题" />
+
+                <EditText
+                    android:id="@+id/edit_tltle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="请输入你发布的标题" />
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/usermainpage_bg_center" 
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/superinput"
+                android:layout_width="fill_parent"
+                android:layout_height="100dip"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/edit_bg" >
+
+                <EditText
+                    android:id="@+id/edit_details"
+                    android:layout_width="fill_parent"
+                    android:layout_height="100dip"
+                    android:background="#00ffffff"
+                    android:hint="细节"
+                    android:gravity="left"
+                    android:paddingLeft="12.0dip"
+                    android:textColor="#808080"
+                    android:textColorHint="#ff666666"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@+id/edit_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginRight="10dip"
+                    android:gravity="center"
+                    android:text="15"
+                    android:textColor="@color/gray"
+                    android:textSize="16sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </LinearLayout>
+
+        <LinearLayout
+             android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/usermainpage_bg_center" 
+            android:layout_height="wrap_content" >
+ 
+       <TextView
+           android:id="@+id/timetext"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:layout_weight="1"
+           android:textSize="20sp"
+           android:layout_gravity="center"
+           android:gravity="center"
+           
+            />
+
+            <TimePicker
+                android:id="@+id/timepicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center" />
+        </LinearLayout>
+                
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+                         android:background="@drawable/usermainpage_bg_center" 
+      			        android:id="@+id/area_rl"
+            			android:layout_width="fill_parent"
+            			android:layout_height="45dip"           			
+            			android:gravity="center_vertical"
+            			android:clickable="true" >
+            			 
+        				    
+            			 <TextView
+            			    android:id="@+id/mtv_03"
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"        				       					
+        					android:layout_centerVertical="true"
+        					android:layout_marginLeft="10dip"
+        					android:text="标签"
+        					android:textSize="18sp"		
+							android:textColor="#404040" />
+            			 
+            			 <ImageView
+						    android:id="@+id/mtv_04"
+            				android:layout_width="wrap_content"
+        					android:layout_height="wrap_content"   
+        					android:layout_marginRight="10dip"      	     	
+        					android:scaleType="matrix"
+        					android:layout_centerVertical="true"
+        					android:layout_alignParentRight="true"
+        					android:src="@drawable/mm_submenu" />  
+        					
+            			 <TextView
+            			    android:id="@+id/jbex_label"
+        					android:layout_width="wrap_content" 
+        					android:layout_height="wrap_content"
+        					android:layout_toLeftOf="@id/mtv_04"
+        					android:layout_marginLeft="10dip"
+        					android:layout_marginRight="10dip"
+        					android:layout_centerVertical="true"
+        					android:padding="8dp" 
+        					android:text="运动"
+        					android:textSize="18sp"		
+							android:textColor="#202020" />
+            			     					
+      				</RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_marginTop="10dp"
+            android:background="@drawable/usermainpage_bg_center" 
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/publicinfo1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_add" />
+
+            <ImageView
+                android:id="@+id/publicinfo2"
+                 android:layout_margin="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/ic_add" />
+
+        </LinearLayout>
+
+</LinearLayout>

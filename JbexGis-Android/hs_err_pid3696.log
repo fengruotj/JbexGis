@@ -1,0 +1,108 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=3696, tid=7000
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_45-b18) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.45-b08 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000021a2800):  JavaThread "Unknown thread" [_thread_in_vm, id=7000, stack(0x00000000020a0000,0x00000000021a0000)]
+
+Stack: [0x00000000020a0000,0x00000000021a0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000021a2800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=7000, stack(0x00000000020a0000,0x00000000021a0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.012 loading class 0x00000000021e4fc0 done
+Event: 0.013 loading class 0x00000000021e49e0 done
+Event: 0.013 loading class 0x00000000021e49c0
+Event: 0.013 loading class 0x00000000021ecac0
+Event: 0.013 loading class 0x00000000021ecac0 done
+Event: 0.013 loading class 0x00000000021ecaf0
+Event: 0.013 loading class 0x00000000021ecaf0 done
+Event: 0.013 loading class 0x00000000021ecb20
+Event: 0.013 loading class 0x00000000021ecb20 done
+Event: 0.013 loading class 0x00000000021e49c0 done
+
+
+Dynamic libraries:
+0x000007f6ab630000 - 0x000007f6ab663000 	D:\MyEclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\bin\javaw.exe
+0x000007f9dcb80000 - 0x000007f9dcd3e000 	C:\Windows\SYSTEM32\ntdll.dll
+0x000007f9da5b0000 - 0x000007f9da6e6000 	C:\Windows\system32\KERNEL32.DLL
+0x000007f9d9a30000 - 0x000007f9d9b24000 	C:\Windows\system32\KERNELBASE.dll
+0x000007f9dad70000 - 0x000007f9dae4e000 	C:\Windows\system32\ADVAPI32.dll
+0x000007f9d9fa0000 - 0x000007f9da0ec000 	C:\Windows\system32\USER32.dll
+0x000007f9d90a0000 - 0x000007f9d930a000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.17359_none_4188b989718cf1c6\COMCTL32.dll
+0x000007f9db390000 - 0x000007f9db435000 	C:\Windows\system32\msvcrt.dll
+0x000007f9dae70000 - 0x000007f9daeb8000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007f9da0f0000 - 0x000007f9da235000 	C:\Windows\system32\RPCRT4.dll
+0x000007f9da3d0000 - 0x000007f9da511000 	C:\Windows\system32\GDI32.dll
+0x000007f9d9dc0000 - 0x000007f9d9df9000 	C:\Windows\system32\IMM32.DLL
+0x000007f9dac50000 - 0x000007f9dad65000 	C:\Windows\system32\MSCTF.dll
+0x0000000063860000 - 0x0000000063932000 	D:\MyEclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin\msvcr100.dll
+0x0000000062f00000 - 0x00000000636c9000 	D:\MyEclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin\server\jvm.dll
+0x000007f9d6b40000 - 0x000007f9d6b49000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x000007f9d9a10000 - 0x000007f9d9a30000 	C:\Windows\system32\WINMM.dll
+0x000007f9dc960000 - 0x000007f9dc967000 	C:\Windows\system32\PSAPI.DLL
+0x000007f9da520000 - 0x000007f9da578000 	C:\Windows\system32\WS2_32.dll
+0x000007f9d9710000 - 0x000007f9d9742000 	C:\Windows\system32\WINMMBASE.dll
+0x000007f9da3c0000 - 0x000007f9da3c9000 	C:\Windows\system32\NSI.dll
+0x0000000063e50000 - 0x0000000063e5f000 	D:\MyEclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin\verify.dll
+0x0000000062ed0000 - 0x0000000062ef8000 	D:\MyEclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin\java.dll
+0x0000000062eb0000 - 0x0000000062ec5000 	D:\MyEclipse\binary\com.sun.java.jdk7.win32.x86_64_1.7.0.u45\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\android_develpement\sdk\platforms\android-18\android.jar 
+java_command: com.message.net.test
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files (x86)\Java\jdk1.8.0_20
+CLASSPATH=.;C:\Program Files (x86)\Java\jdk1.8.0_20\lib\dt.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\lib\tools.jar;
+PATH=C:\Python25\;F:\python;C:\Program Files (x86)\Java\jdk1.8.0_20\bin;F:\MySQL\MySQL Utilities 1.4.4\;F:\MySQL\MySQL Utilities 1.4.4\Doctrine extensions for PHP\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\C:\apache-tomcat-7.0.57\lib;C:\apache-tomcat-7.0.57\bin;F:\MapGIS 10\program;D:\安卓开发\sdk\tools;F:\MapGisK9\MapGIS K9 SP3\program;c:\windows\system32;D:\昂达平板助手\;c:\windows\system32
+USERNAME=dell-pc
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, aes, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 4060436k(1492264k free), swap 7861524k(3021004k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.45-b08) for windows-amd64 JRE (1.7.0_45-b18), built on Oct  8 2013 05:47:22 by "java_re" with unknown MS VC++:1600
+
+time: Sat Aug 29 00:43:47 2015
+elapsed time: 0 seconds
+

@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+     >
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:background="@drawable/usermainpage_bg_center" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/friendsName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/sex"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@drawable/usermainpage_bg_center"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/listMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+     <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+          android:layout_marginTop="15dip"      
+        android:background="@drawable/usermainpage_bg_center" 
+        android:orientation="vertical"  
+            >
+    <RelativeLayout
+        android:id="@+id/group_layout_01"
+        android:layout_width="fill_parent"
+        android:layout_height="42dip"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/card_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="特别关注"
+            android:textColor="#202020"
+            android:textSize="16sp" />
+
+        <com.basic.ui.SlipButton
+            android:id="@+id/attentionSlipButton"
+            android:layout_width="80dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="-10dip" />
+    </RelativeLayout>
+</LinearLayout> 
+       
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/addFriend"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@color/mainTheme_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="添加朋友"
+            android:onClick="addfriend"
+            android:textColor="#FFFFFF" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,148 @@
+<themes>
+  <subnode name="基期零星地物(地类名称)" type="UniqueTheme" class="CreateGTheme@GisCartoPrj.dll" GeomType="1">
+    <state>VISIBLE</state>
+    <expression>地类名称</expression>
+    <infoSource>1</infoSource>
+    <otherInfoSource>1</otherInfoSource>
+    <defaultInfo caption="未分类" isVisible="1" minScale="0." maxScale="0.">
+      <geoInfo>
+        <pntInfo lib="0" id="6" height="8" width="8" angle="0" outpenw="0;0;0" outclr="51;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+        </pntInfo>
+      </geoInfo>
+    </defaultInfo>
+    <uniqueInfos>
+      <uniqueInfo caption="公路用地" isVisible="1" minScale="0." maxScale="0." value="公路用地">
+        <geoInfo>
+          <pntInfo lib="0" id="315" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="农田水利用地" isVisible="1" minScale="0." maxScale="0." value="农田水利用地">
+        <geoInfo>
+          <pntInfo lib="0" id="349" height="5" width="5" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="园地" isVisible="1" minScale="0." maxScale="0." value="园地">
+        <geoInfo>
+          <pntInfo lib="0" id="4" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="坑塘水面" isVisible="1" minScale="0." maxScale="0." value="坑塘水面">
+        <geoInfo>
+          <pntInfo lib="0" id="311" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="旱地" isVisible="1" minScale="0." maxScale="0." value="旱地">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="34;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="林地" isVisible="1" minScale="0." maxScale="0." value="林地">
+        <geoInfo>
+          <pntInfo lib="0" id="407" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="民用机场用地" isVisible="1" minScale="0." maxScale="0." value="民用机场用地">
+        <geoInfo>
+          <pntInfo lib="0" id="316" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水工建筑用地" isVisible="1" minScale="0." maxScale="0." value="水工建筑用地">
+        <geoInfo>
+          <pntInfo lib="0" id="352" height="5" width="5" angle="0" outpenw="0;0;0" outclr="0;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水库水面" isVisible="1" minScale="0." maxScale="0." value="水库水面">
+        <geoInfo>
+          <pntInfo lib="0" id="319" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水浇地" isVisible="1" minScale="0." maxScale="0." value="水浇地">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="水田" isVisible="1" minScale="0." maxScale="0." value="水田">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="港口码头用地" isVisible="1" minScale="0." maxScale="0." value="港口码头用地">
+        <geoInfo>
+          <pntInfo lib="0" id="317" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="滩涂" isVisible="1" minScale="0." maxScale="0." value="滩涂">
+        <geoInfo>
+          <pntInfo lib="0" id="323" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="牧草地" isVisible="1" minScale="0." maxScale="0." value="牧草地">
+        <geoInfo>
+          <pntInfo lib="0" id="410" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="特殊用地" isVisible="1" minScale="0." maxScale="0." value="特殊用地">
+        <geoInfo>
+          <pntInfo lib="0" id="321" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="盐田" isVisible="1" minScale="0." maxScale="0." value="盐田">
+        <geoInfo>
+          <pntInfo lib="0" id="322" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="管道运输用地" isVisible="1" minScale="0." maxScale="0." value="管道运输用地">
+        <geoInfo>
+          <pntInfo lib="0" id="318" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="耕地" isVisible="1" minScale="0." maxScale="0." value="耕地">
+        <geoInfo>
+          <pntInfo lib="0" id="1" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="设施农用地" isVisible="1" minScale="0." maxScale="0." value="设施农用地">
+        <geoInfo>
+          <pntInfo lib="0" id="347" height="5" width="5" angle="0" outpenw="0;0;0" outclr="130;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="采矿用地" isVisible="1" minScale="0." maxScale="0." value="采矿用地">
+        <geoInfo>
+          <pntInfo lib="0" id="312" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="铁路用地" isVisible="1" minScale="0." maxScale="0." value="铁路用地">
+        <geoInfo>
+          <pntInfo lib="0" id="314" height="5" width="5" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+      <uniqueInfo caption="风景名胜设施用地" isVisible="1" minScale="0." maxScale="0." value="风景名胜设施用地">
+        <geoInfo>
+          <pntInfo lib="0" id="320" height="4" width="4" angle="0" outpenw="0;0;0" outclr="1;0;0" ovprnt="0" fillflg="0" backexp="0" backclr="0">
+          </pntInfo>
+        </geoInfo>
+      </uniqueInfo>
+    </uniqueInfos>
+  </subnode>
+</themes>

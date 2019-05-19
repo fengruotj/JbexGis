@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyPublishActivity"
+    android:orientation="vertical"  >
+ 
+    <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/new_public"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"    
+            android:background="@drawable/tm_button_white_bg" 
+            android:clickable="true"          
+             >
+            
+            <ImageView
+                android:id="@+id/newf"
+                android:layout_width="55dp"
+		        android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/s_chat_friend3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/newf"
+                android:layout_marginLeft="2dip"
+                android:padding="7dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="公众信息"
+                android:textColor="#000" />
+            
+               <ImageView
+                   android:id="@+id/img_araow"
+                android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        	     	
+        		android:scaleType="matrix"
+        		android:layout_marginRight="20dip"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />  
+        		
+                  </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/new_Jbex"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"    
+            android:background="@drawable/tm_button_white_bg" 
+            android:clickable="true"          
+             >
+            
+            <ImageView
+                android:id="@+id/newf"
+                android:layout_width="55dp"
+		        android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/s_chat_friend4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/newf"
+                android:layout_marginLeft="2dip"
+                android:padding="7dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="结伴而行"
+                android:textColor="#000" />
+            
+               <ImageView
+                   android:id="@+id/img_araow"
+                android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        	     	
+        		android:scaleType="matrix"
+        		android:layout_marginRight="20dip"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />  
+        		
+                  </RelativeLayout>
+                  
+    <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:id="@+id/new_dynamic"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"    
+            android:background="@drawable/tm_button_white_bg" 
+            android:clickable="true"          
+             >
+            
+            <ImageView
+                android:id="@+id/newf"
+                android:layout_width="55dp"
+		        android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:src="@drawable/s_chat_friend5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/newf"
+                android:layout_marginLeft="2dip"
+                android:padding="7dp"
+                android:layout_centerVertical="true"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text="好友动态"
+                android:textColor="#000" />
+            
+               <ImageView
+                   android:id="@+id/img_araow"
+                android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"        	     	
+        		android:scaleType="matrix"
+        		android:layout_marginRight="20dip"
+        		android:layout_centerVertical="true"
+        		android:layout_alignParentRight="true"
+        		android:src="@drawable/mm_submenu" />  
+        		
+                  </RelativeLayout>
+</LinearLayout>

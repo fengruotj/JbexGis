@@ -1,0 +1,19 @@
+
+
+***********************************************************************
+Fatal NI connect error 12545, connecting to:
+ (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=landproduct)(PORT=1521))(CONNECT_DATA=(SERVICE_NAME=GH)(CID=(PROGRAM=C:\Program Files\MapGIS K9 SP2\program\DC_Upload.exe)(HOST=LANDPRODUCT)(USER=Administrator))))
+
+  VERSION INFORMATION:
+	TNS for 32-bit Windows: Version 10.2.0.1.0 - Production
+	Windows NT TCP/IP NT Protocol Adapter for 32-bit Windows: Version 10.2.0.1.0 - Production
+  Time: 27-8月 -2011 16:45:09
+  Tracing not turned on.
+  Tns error struct:
+    ns main err code: 12545
+    TNS-12545: 因目标主机或对象不存在, 连接失败
+    ns secondary err code: 12560
+    nt main err code: 515
+    TNS-00515: 因目标主机或对象不存在, 连接失败
+    nt secondary err code: 1001
+    nt OS err code: 0
